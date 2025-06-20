@@ -535,6 +535,34 @@
         "metadata": "",
         "name": "fishAnim.glb",
         "userAdded": false
+      },
+      {
+        "file": "assets/water cave dark.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "water cave dark.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/RC Art - Water Aqua System/BG Water/8597763cab7e9d0d0198e62e27b94dbebaa22d2f5bfd101c6e371f7e4edc0aa6_water cave dark.png",
+          "name": "water cave dark.png"
+        }
+      },
+      {
+        "file": "assets/TrailDrop_river.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\TrailDrop_river.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Trail_river.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Trail_river.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -559,6 +587,377 @@
     }
   ],
   "layouts": [
+    {
+      "b": 0,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Leaderboard",
+      "name": "Leaderboard",
+      "r": 0,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 0,
+      "uiSettings": {
+        "grid": true,
+        "gridType": "rectangular",
+        "gridWidth": 16,
+        "gridHeight": 16,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 16777215,
+        "gridAlpha": 0.21,
+        "snap": true,
+        "zoomFactor": 0.47751445572235834,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [
+        {
+          "name": "LeaderboardScore",
+          "type": "string",
+          "value": ""
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "c2c6a11c-e8f8-4ee6-aedb-369f62303136",
+          "width": 1152,
+          "x": -96,
+          "y": 512,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 464,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LeaderboardDialog",
+          "persistentUuid": "7c8178f1-159f-4aa2-97d0-99b16b520499",
+          "width": 800,
+          "x": 16,
+          "y": 240,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "0e3ee52ba8369c68fe75e3b34a056876ba39b1d0dbb9de6e83e1f2ea0e6f94ac",
+          "name": "Coin",
+          "type": "Scene3D::Model3DObject",
+          "variables": [
+            {
+              "folded": true,
+              "name": "RotationX",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "RotationY",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "RotationZ",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ScreenWrap",
+              "type": "ScreenWrap::ScreenWrap",
+              "HorizontalWrapping": false,
+              "VerticalWrapping": true,
+              "BorderTop": 0,
+              "BorderLeft": 0,
+              "BorderRight": 0,
+              "BorderBottom": 0,
+              "TriggerOffset": 500
+            }
+          ],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "crossfadeDuration": 0,
+            "depth": 64,
+            "height": 64,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Coin.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 64,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "LeaderboardDialog",
+          "type": "LeaderboardDialog::LeaderboardDialog",
+          "variant": "",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
+              "bottomEdgeAnchor": 0,
+              "leftEdgeAnchor": 4,
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 4,
+              "topEdgeAnchor": 0,
+              "useLegacyBottomAndRightAnchors": false
+            }
+          ],
+          "content": {
+            "LeaderboardId": "2392ae63-5ed6-4d1b-9ca5-157d64602a81"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "folderName": "UI",
+            "quickCustomizationVisibility": "hidden",
+            "children": [
+              {
+                "objectName": "LeaderboardDialog"
+              }
+            ]
+          },
+          {
+            "objectName": "Coin"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "LeaderboardDialog::LeaderboardDialog::SetScore"
+              },
+              "parameters": [
+                "LeaderboardDialog",
+                "=",
+                "Score",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "LeaderboardDialog::LeaderboardDialog::SetDefaultPlayerName"
+              },
+              "parameters": [
+                "LeaderboardDialog",
+                "=",
+                "PlayerName",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "LeaderboardDialog::LeaderboardDialog::IsRestartClicked"
+              },
+              "parameters": [
+                "LeaderboardDialog",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Game\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "LeaderboardDialog::LeaderboardDialog::IsScoreSubmitted"
+              },
+              "parameters": [
+                "LeaderboardDialog",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "PlayerName",
+                "=",
+                "LeaderboardDialog.PlayerName()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Game\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 167797870,
+          "ambientLightColorG": 6032144,
+          "ambientLightColorR": 8563600,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "cameraType": "perspective",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "3D",
+          "renderingType": "3d",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "Light",
+              "doubleParameters": {
+                "elevation": 90,
+                "intensity": 0.5,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 3,
+          "ambientLightColorG": 134217728,
+          "ambientLightColorR": 1597197633,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "cameraType": "perspective",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "2d",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior"
+        },
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Object3D",
+          "type": "Scene3D::Base3DBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "ScreenWrap",
+          "type": "ScreenWrap::ScreenWrap"
+        },
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
+    },
     {
       "b": 247,
       "disableInputWhenNotFocused": true,
@@ -955,7 +1354,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.29122588669111565,
+        "zoomFactor": 0.2817259932079601,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1691,9 +2090,9 @@
             "frontFaceResourceName": "",
             "backFaceResourceName": "",
             "backFaceUpThroughWhichAxisRotation": "X",
-            "leftFaceResourceName": "TrailDrop.png",
+            "leftFaceResourceName": "assets\\TrailDrop_river.png",
             "rightFaceResourceName": "",
-            "topFaceResourceName": "Trail3.png",
+            "topFaceResourceName": "assets\\Trail_river.png",
             "bottomFaceResourceName": "",
             "frontFaceVisible": false,
             "backFaceVisible": false,
@@ -1734,9 +2133,9 @@
             "frontFaceResourceName": "TrailWall.png",
             "backFaceResourceName": "TrailWall.png",
             "backFaceUpThroughWhichAxisRotation": "X",
-            "leftFaceResourceName": "TrailDrop.png",
+            "leftFaceResourceName": "assets\\TrailDrop_river.png",
             "rightFaceResourceName": "",
-            "topFaceResourceName": "Trail3.png",
+            "topFaceResourceName": "assets\\Trail_river.png",
             "bottomFaceResourceName": "",
             "frontFaceVisible": true,
             "backFaceVisible": true,
@@ -3351,377 +3750,6 @@
         {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
-        }
-      ]
-    },
-    {
-      "b": 0,
-      "disableInputWhenNotFocused": true,
-      "mangledName": "Leaderboard",
-      "name": "Leaderboard",
-      "r": 0,
-      "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 0,
-      "uiSettings": {
-        "grid": true,
-        "gridType": "rectangular",
-        "gridWidth": 16,
-        "gridHeight": 16,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridColor": 16777215,
-        "gridAlpha": 0.21,
-        "snap": true,
-        "zoomFactor": 0.47751445572235834,
-        "windowMask": false
-      },
-      "objectsGroups": [],
-      "variables": [
-        {
-          "name": "LeaderboardScore",
-          "type": "string",
-          "value": ""
-        }
-      ],
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 64,
-          "layer": "",
-          "name": "Platform",
-          "persistentUuid": "c2c6a11c-e8f8-4ee6-aedb-369f62303136",
-          "width": 1152,
-          "x": -96,
-          "y": 512,
-          "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 464,
-          "keepRatio": true,
-          "layer": "",
-          "name": "LeaderboardDialog",
-          "persistentUuid": "7c8178f1-159f-4aa2-97d0-99b16b520499",
-          "width": 800,
-          "x": 16,
-          "y": 240,
-          "zOrder": 38,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
-      "objects": [
-        {
-          "assetStoreId": "0e3ee52ba8369c68fe75e3b34a056876ba39b1d0dbb9de6e83e1f2ea0e6f94ac",
-          "name": "Coin",
-          "type": "Scene3D::Model3DObject",
-          "variables": [
-            {
-              "folded": true,
-              "name": "RotationX",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "folded": true,
-              "name": "RotationY",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "folded": true,
-              "name": "RotationZ",
-              "type": "number",
-              "value": 0
-            }
-          ],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "ScreenWrap",
-              "type": "ScreenWrap::ScreenWrap",
-              "HorizontalWrapping": false,
-              "VerticalWrapping": true,
-              "BorderTop": 0,
-              "BorderLeft": 0,
-              "BorderRight": 0,
-              "BorderBottom": 0,
-              "TriggerOffset": 500
-            }
-          ],
-          "content": {
-            "centerLocation": "ModelOrigin",
-            "crossfadeDuration": 0,
-            "depth": 64,
-            "height": 64,
-            "keepAspectRatio": true,
-            "materialType": "StandardWithoutMetalness",
-            "modelResourceName": "Coin.glb",
-            "originLocation": "ModelOrigin",
-            "rotationX": 0,
-            "rotationY": 0,
-            "rotationZ": 0,
-            "width": 64,
-            "animations": []
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "LeaderboardDialog",
-          "type": "LeaderboardDialog::LeaderboardDialog",
-          "variant": "",
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Anchor",
-              "type": "AnchorBehavior::AnchorBehavior",
-              "bottomEdgeAnchor": 0,
-              "leftEdgeAnchor": 4,
-              "relativeToOriginalWindowSize": true,
-              "rightEdgeAnchor": 4,
-              "topEdgeAnchor": 0,
-              "useLegacyBottomAndRightAnchors": false
-            }
-          ],
-          "content": {
-            "LeaderboardId": "2392ae63-5ed6-4d1b-9ca5-157d64602a81"
-          }
-        }
-      ],
-      "objectsFolderStructure": {
-        "folderName": "__ROOT",
-        "children": [
-          {
-            "folderName": "UI",
-            "quickCustomizationVisibility": "hidden",
-            "children": [
-              {
-                "objectName": "LeaderboardDialog"
-              }
-            ]
-          },
-          {
-            "objectName": "Coin"
-          }
-        ]
-      },
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "LeaderboardDialog::LeaderboardDialog::SetScore"
-              },
-              "parameters": [
-                "LeaderboardDialog",
-                "=",
-                "Score",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "LeaderboardDialog::LeaderboardDialog::SetDefaultPlayerName"
-              },
-              "parameters": [
-                "LeaderboardDialog",
-                "=",
-                "PlayerName",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "LeaderboardDialog::LeaderboardDialog::IsRestartClicked"
-              },
-              "parameters": [
-                "LeaderboardDialog",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Game\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "LeaderboardDialog::LeaderboardDialog::IsScoreSubmitted"
-              },
-              "parameters": [
-                "LeaderboardDialog",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "PlayerName",
-                "=",
-                "LeaderboardDialog.PlayerName()"
-              ]
-            },
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Game\"",
-                ""
-              ]
-            }
-          ]
-        }
-      ],
-      "layers": [
-        {
-          "ambientLightColorB": 167797870,
-          "ambientLightColorG": 6032144,
-          "ambientLightColorR": 8563600,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 0.1,
-          "cameraType": "perspective",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "3D",
-          "renderingType": "3d",
-          "visibility": true,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "Light",
-              "doubleParameters": {
-                "elevation": 90,
-                "intensity": 0.5,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "groundColor": "127;127;127",
-                "skyColor": "255;255;255",
-                "top": "Y-"
-              },
-              "booleanParameters": {}
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 3,
-          "ambientLightColorG": 134217728,
-          "ambientLightColorR": 1597197633,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 0.1,
-          "cameraType": "perspective",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "",
-          "renderingType": "2d",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": []
-        }
-      ],
-      "behaviorsSharedData": [
-        {
-          "name": "Anchor",
-          "type": "AnchorBehavior::AnchorBehavior"
-        },
-        {
-          "name": "Animation",
-          "type": "AnimatableCapability::AnimatableBehavior"
-        },
-        {
-          "name": "Effect",
-          "type": "EffectCapability::EffectBehavior"
-        },
-        {
-          "name": "Flippable",
-          "type": "FlippableCapability::FlippableBehavior"
-        },
-        {
-          "name": "Object3D",
-          "type": "Scene3D::Base3DBehavior"
-        },
-        {
-          "name": "Opacity",
-          "type": "OpacityCapability::OpacityBehavior"
-        },
-        {
-          "name": "Resizable",
-          "type": "ResizableCapability::ResizableBehavior"
-        },
-        {
-          "name": "Scale",
-          "type": "ScalableCapability::ScalableBehavior"
-        },
-        {
-          "name": "ScreenWrap",
-          "type": "ScreenWrap::ScreenWrap"
-        },
-        {
-          "name": "Sticker",
-          "type": "Sticker::Sticker"
-        },
-        {
-          "name": "Text",
-          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     }
