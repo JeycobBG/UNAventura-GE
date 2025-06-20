@@ -955,7 +955,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.36732575450588745,
+        "zoomFactor": 0.29122588669111565,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1908,7 +1908,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Controls: Arrow keys and space bar.",
+          "string": "Controles: Flechas y espacio.",
           "font": "3bd40ac788d44626fd640ec67ef04ab0364816b5e8c831f2077bff8805cfe689_Roboto-Bold.ttf",
           "textAlignment": "left",
           "characterSize": 50,
@@ -1931,7 +1931,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Controls: Arrow keys and space bar.",
+            "text": "Controles: Flechas y espacio.",
             "font": "3bd40ac788d44626fd640ec67ef04ab0364816b5e8c831f2077bff8805cfe689_Roboto-Bold.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
