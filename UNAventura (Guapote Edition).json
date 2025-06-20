@@ -1239,7 +1239,7 @@
           "colorG": 211,
           "colorR": 126,
           "creationTime": 0,
-          "name": "Scene transition",
+          "name": "Transición de escena",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -1354,7 +1354,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.2817259932079601,
+        "zoomFactor": 0.34375202416123657,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2655,7 +2655,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Adjusting the tutorial text for a mobile game."
+              "comment": "Ajustando el texto del tutorial para un juego móvil."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -2716,7 +2716,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "name": "When the game is playing",
+              "name": "Cuando el juego esta en juego",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
@@ -2725,7 +2725,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "name": "Player movement controls",
+                  "name": "Controles de movimiento del pez",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
@@ -2739,7 +2739,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Make the character move ahead."
+                      "comment": "HAcer que el personaje avance"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -3022,7 +3022,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Lane change end\nChecking which objects are valid after the player changes lanes."
+                      "comment": "Fin del cambio de carril\nComprobar qué objetos son válidos después de que el jugador cambie de carril."
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -3062,7 +3062,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "name": "Coins",
+                  "name": "Monedas",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
@@ -3076,7 +3076,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Collision checks if objects are in the proper lane."
+                      "comment": "Comprueba si los objetos se encuentran en el carril correcto."
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -3190,7 +3190,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "name": "Death",
+                  "name": "Muerte",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
@@ -3204,7 +3204,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Player falling."
+                      "comment": "Jugador cayendo."
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -3243,7 +3243,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Collision checks if objects are in the proper lane."
+                      "comment": "Comprueba si los objetos se encuentran en el carril correcto."
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -3315,7 +3315,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "name": "When the game is over",
+              "name": "Cuando el juego termina",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
@@ -3465,7 +3465,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Spawning/Deleting levels",
+          "name": "Generación/Eliminación de niveles",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -3479,7 +3479,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Picking a random layout from the list and creating it ahead of the player."
+              "comment": "Elegir un diseño aleatorio de la lista y crearlo antes que el jugador."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -3569,7 +3569,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Deleting objects that go too far behind the player to improve performance."
+              "comment": "Eliminar objetos que van demasiado lejos detrás del reproductor para mejorar el rendimiento."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
