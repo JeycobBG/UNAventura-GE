@@ -12,7 +12,7 @@
     "antialisingEnabledOnMobile": false,
     "folderProject": false,
     "orientation": "portrait",
-    "packageName": "com.example.lanerunner3d",
+    "packageName": "com.example.unaventura3d",
     "pixelsRounding": false,
     "projectUuid": "17675ea0-a46e-4fb2-a5dd-8a4c96ddc63a",
     "scaleMode": "linear",
@@ -20,7 +20,7 @@
     "templateSlug": "3d-lane-runner",
     "version": "1.0.0",
     "name": "UNAventura (Guapote Edition)",
-    "description": "This 3D lane runner game shows the basics of adjusting a 3D camera, variables, sound effects, saving and loading a highscore, and how to use the platformer behavior in a 3D space.",
+    "description": "",
     "author": "",
     "windowWidth": 720,
     "windowHeight": 1280,
@@ -528,6 +528,13 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/edbc88d46437d6403d3670eb084bcbdf08872c9f54a34ed1536c1013c412bd3b_Rubik-Regular.ttf",
           "name": "Rubik-Regular.ttf"
         }
+      },
+      {
+        "file": "fishAnim.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "fishAnim.glb",
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -658,14 +665,14 @@
               "useLegacyBottomAndRightAnchors": false
             }
           ],
-          "string": "LANE RUNNER",
+          "string": "UNAventura",
           "font": "3bd40ac788d44626fd640ec67ef04ab0364816b5e8c831f2077bff8805cfe689_Roboto-Bold.ttf",
           "textAlignment": "center",
           "characterSize": 90,
           "color": {
-            "b": 61,
-            "g": 159,
-            "r": 236
+            "b": 0,
+            "g": 0,
+            "r": 255
           },
           "content": {
             "bold": false,
@@ -681,12 +688,12 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "LANE RUNNER",
+            "text": "UNAventura",
             "font": "3bd40ac788d44626fd640ec67ef04ab0364816b5e8c831f2077bff8805cfe689_Roboto-Bold.ttf",
             "textAlignment": "center",
             "verticalTextAlignment": "top",
             "characterSize": 90,
-            "color": "236;159;61"
+            "color": "255;0;0"
           }
         },
         {
@@ -763,7 +770,7 @@
               "italic": false,
               "smoothed": true,
               "underlined": false,
-              "string": "Start",
+              "string": "Iniciar",
               "font": "Rubik-Regular.ttf",
               "textAlignment": "center",
               "characterSize": 80,
@@ -786,7 +793,7 @@
                 "shadowOpacity": 127,
                 "smoothed": true,
                 "underlined": false,
-                "text": "Start",
+                "text": "Iniciar",
                 "font": "Rubik-Regular.ttf",
                 "textAlignment": "center",
                 "verticalTextAlignment": "top",
@@ -948,7 +955,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.4481978045410417,
+        "zoomFactor": 0.36732575450588745,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1012,23 +1019,6 @@
         }
       ],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Player",
-          "persistentUuid": "386469df-5174-48d4-bd2b-7c45a143a091",
-          "rotationX": 90,
-          "width": 0,
-          "x": 434,
-          "y": 345,
-          "z": 160,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": true,
@@ -1439,12 +1429,13 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 57,
           "layer": "UI",
           "name": "TutorialText",
           "persistentUuid": "5b278fb7-e28f-4668-8575-d5794c7a8550",
-          "width": 0,
+          "width": 824,
           "x": 8,
           "y": 1218,
           "zOrder": 10,
@@ -1488,13 +1479,13 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "UI",
-          "name": "HighScoreLabel",
-          "persistentUuid": "98faaccd-e19c-4615-8952-c2f49c005f51",
+          "layer": "",
+          "name": "Fish",
+          "persistentUuid": "f3965891-6ed5-481c-91cf-e22cc99e4614",
           "width": 0,
-          "x": 8,
-          "y": 57,
-          "zOrder": 13,
+          "x": 480,
+          "y": 410,
+          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1833,7 +1824,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Coins: 0",
+          "string": "Monedas: 0",
           "font": "3bd40ac788d44626fd640ec67ef04ab0364816b5e8c831f2077bff8805cfe689_Roboto-Bold.ttf",
           "textAlignment": "left",
           "characterSize": 50,
@@ -1856,7 +1847,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Coins: 0",
+            "text": "Monedas: 0",
             "font": "3bd40ac788d44626fd640ec67ef04ab0364816b5e8c831f2077bff8805cfe689_Roboto-Bold.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -1875,7 +1866,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "HighScore: 0",
+          "string": "Puntuación más alta: 0",
           "font": "3bd40ac788d44626fd640ec67ef04ab0364816b5e8c831f2077bff8805cfe689_Roboto-Bold.ttf",
           "textAlignment": "left",
           "characterSize": 50,
@@ -1898,7 +1889,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "HighScore: 0",
+            "text": "Puntuación más alta: 0",
             "font": "3bd40ac788d44626fd640ec67ef04ab0364816b5e8c831f2077bff8805cfe689_Roboto-Bold.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -2032,6 +2023,77 @@
               ]
             }
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Fish",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "LaneCharacter",
+              "type": "LanePlatformer::LaneCharacter",
+              "Object3D": "Object3D",
+              "Tween": "Tween",
+              "LaneDepth": 160,
+              "Lane": 0,
+              "TargetedLane": 0
+            },
+            {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "ignoreDefaultControls": true,
+              "acceleration": 2000,
+              "gravity": 1000,
+              "jumpSpeed": 750,
+              "jumpSustainTime": 0,
+              "maxFallingSpeed": 300,
+              "maxSpeed": 500,
+              "canGoDownFromJumpthru": true,
+              "canGrabPlatforms": false,
+              "canGrabWithoutMoving": true,
+              "deceleration": 1500,
+              "ladderClimbingSpeed": 150,
+              "slopeMaxAngle": 60,
+              "useLegacyTrajectory": false,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            },
+            {
+              "name": "SmoothCameraZ",
+              "type": "LanePlatformer::SmoothCameraZ",
+              "OffsetX": 0,
+              "OffsetY": -100,
+              "ElevationAngle": 25,
+              "Distance": 440
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "crossfadeDuration": 0.10000000149011612,
+            "depth": 100,
+            "height": 100,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "fishAnim.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 100,
+            "animations": [
+              {
+                "loop": true,
+                "name": "Swim",
+                "source": "ArmatureAction"
+              }
+            ]
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -2087,6 +2149,9 @@
           },
           {
             "objectName": "CoinExplosion"
+          },
+          {
+            "objectName": "Fish"
           }
         ]
       },
@@ -2104,6 +2169,17 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "Scene3D::Base3DBehavior::SetRotationY"
+              },
+              "parameters": [
+                "Fish",
+                "Object3D",
+                "=",
+                "90"
+              ]
+            },
             {
               "type": {
                 "value": "SetStringVariable"
@@ -2149,7 +2225,7 @@
                 "value": "AnimatableCapability::AnimatableBehavior::SetSpeedScale"
               },
               "parameters": [
-                "Player",
+                "Fish",
                 "Animation",
                 "=",
                 "1.3"
@@ -2160,7 +2236,7 @@
                 "value": "LanePlatformer::LaneCharacter::EnablePlatformOnLane"
               },
               "parameters": [
-                "Player",
+                "Fish",
                 "LaneCharacter",
                 "Platform",
                 "Object3D",
@@ -2170,56 +2246,6 @@
             }
           ],
           "events": [
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Loading the highscore variable in to the game to be used for the CoinScore text object."
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ReadNumberFromStorage"
-                  },
-                  "parameters": [
-                    "\"GameHighscore\"",
-                    "\"GameHighscore\"",
-                    "",
-                    "HighScore"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "HighScore",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "HighScoreLabel",
-                    "Text",
-                    "=",
-                    "\"Highscore: \" + HighScore"
-                  ]
-                }
-              ]
-            },
             {
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
@@ -2325,7 +2351,7 @@
                             "value": "PlatformBehavior::SimulateControl"
                           },
                           "parameters": [
-                            "Player",
+                            "Fish",
                             "PlatformerObject",
                             "\"Right\""
                           ]
@@ -2397,7 +2423,7 @@
                             "value": "PlatformBehavior::SimulateControl"
                           },
                           "parameters": [
-                            "Player",
+                            "Fish",
                             "PlatformerObject",
                             "\"Jump\""
                           ]
@@ -2413,7 +2439,7 @@
                             "value": "CollisionNP"
                           },
                           "parameters": [
-                            "Player",
+                            "Fish",
                             "GroundElevated",
                             "",
                             "",
@@ -2497,7 +2523,7 @@
                                 "value": "LanePlatformer::LaneCharacter::MoveRight"
                               },
                               "parameters": [
-                                "Player",
+                                "Fish",
                                 "LaneCharacter",
                                 ""
                               ]
@@ -2578,7 +2604,7 @@
                                 "value": "LanePlatformer::LaneCharacter::MoveLeft"
                               },
                               "parameters": [
-                                "Player",
+                                "Fish",
                                 "LaneCharacter",
                                 ""
                               ]
@@ -2607,7 +2633,7 @@
                             "value": "LanePlatformer::LaneCharacter::HasChangedOfLane"
                           },
                           "parameters": [
-                            "Player",
+                            "Fish",
                             "LaneCharacter",
                             ""
                           ]
@@ -2619,7 +2645,7 @@
                             "value": "LanePlatformer::LaneCharacter::EnablePlatformOnLane"
                           },
                           "parameters": [
-                            "Player",
+                            "Fish",
                             "LaneCharacter",
                             "Platform",
                             "Object3D",
@@ -2663,7 +2689,7 @@
                           "parameters": [
                             "Coin",
                             "LaneObject",
-                            "Player",
+                            "Fish",
                             "LaneCharacter",
                             ""
                           ]
@@ -2674,7 +2700,7 @@
                           },
                           "parameters": [
                             "Coin",
-                            "Player",
+                            "Fish",
                             "",
                             "",
                             ""
@@ -2700,7 +2726,7 @@
                             "ScoreLabel",
                             "Text",
                             "=",
-                            "\"Coins: \" + Coins"
+                            "\"Monedas: \" + Coins"
                           ]
                         },
                         {
@@ -2789,7 +2815,7 @@
                             "value": "PosY"
                           },
                           "parameters": [
-                            "Player",
+                            "Fish",
                             ">",
                             "FallDeath.Y()"
                           ]
@@ -2830,7 +2856,7 @@
                           "parameters": [
                             "SpikeGroup",
                             "LaneObject",
-                            "Player",
+                            "Fish",
                             "LaneCharacter",
                             ""
                           ]
@@ -2841,7 +2867,7 @@
                           },
                           "parameters": [
                             "SpikeGroup",
-                            "Player",
+                            "Fish",
                             "",
                             "",
                             ""
@@ -2956,16 +2982,6 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "EcrireFichierExp"
-                          },
-                          "parameters": [
-                            "\"GameHighscore\"",
-                            "\"GameHighscore\"",
-                            "Coins"
-                          ]
-                        },
-                        {
-                          "type": {
                             "value": "SetNumberVariable"
                           },
                           "parameters": [
@@ -3076,7 +3092,7 @@
                   "parameters": [
                     "StartMarker",
                     "<",
-                    "Player.X()"
+                    "Fish.X()"
                   ]
                 }
               ],
@@ -3101,8 +3117,8 @@
                       },
                       "parameters": [
                         "StartMarker",
-                        "Player.X()",
-                        "Player.Y()",
+                        "Fish.X()",
+                        "Fish.Y()",
                         ""
                       ]
                     }
@@ -3130,7 +3146,7 @@
                             "value": "LanePlatformer::LaneCharacter::EnablePlatformOnLane"
                           },
                           "parameters": [
-                            "Player",
+                            "Fish",
                             "LaneCharacter",
                             "Platform",
                             "Object3D",
@@ -3166,7 +3182,7 @@
                   "parameters": [
                     "LevelElement",
                     "<",
-                    "Player.X() - 1060"
+                    "Fish.X() - 1060"
                   ]
                 }
               ],
@@ -3358,7 +3374,7 @@
         "gridColor": 16777215,
         "gridAlpha": 0.21,
         "snap": true,
-        "zoomFactor": 0.4619377619140885,
+        "zoomFactor": 0.47751445572235834,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3597,168 +3613,6 @@
               ]
             }
           ]
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Coins animation",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "DepartScene"
-                  },
-                  "parameters": [
-                    ""
-                  ]
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Repeat",
-                  "repeatExpression": "100",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "Coin",
-                        "RandomInRange(CameraBorderLeft(), CameraBorderRight())",
-                        "RandomInRange(-500 + CameraBorderTop(), CameraBorderBottom() + 500)",
-                        "\"3D\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Coin",
-                        "RotationX",
-                        "=",
-                        "RandomFloatInRange(20, 45)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Coin",
-                        "RotationY",
-                        "=",
-                        "RandomFloatInRange(20, 45)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Coin",
-                        "RotationZ",
-                        "=",
-                        "RandomFloatInRange(20, 45)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AddForceXY"
-                      },
-                      "parameters": [
-                        "Coin",
-                        "0",
-                        "200",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Scene3D::Base3DBehavior::SetZ"
-                      },
-                      "parameters": [
-                        "Coin",
-                        "Object3D",
-                        "=",
-                        "RandomFloatInRange(-1000, -32)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Scene3D::Base3DBehavior::SetRotationX"
-                      },
-                      "parameters": [
-                        "Coin",
-                        "Object3D",
-                        "=",
-                        "RandomFloat(360)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Scene3D::Base3DBehavior::SetRotationY"
-                      },
-                      "parameters": [
-                        "Coin",
-                        "Object3D",
-                        "=",
-                        "RandomFloat(360)"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Scene3D::Base3DBehavior::SetRotationX"
-                  },
-                  "parameters": [
-                    "Coin",
-                    "Object3D",
-                    "+",
-                    "Coin.RotationX * TimeDelta()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Scene3D::Base3DBehavior::SetRotationY"
-                  },
-                  "parameters": [
-                    "Coin",
-                    "Object3D",
-                    "+",
-                    "Coin.RotationY * TimeDelta()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetAngle"
-                  },
-                  "parameters": [
-                    "Coin",
-                    "+",
-                    "Coin.RotationZ * TimeDelta()"
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
         }
       ],
       "layers": [
