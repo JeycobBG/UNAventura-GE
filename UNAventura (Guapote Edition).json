@@ -1866,16 +1866,13 @@
             },
             {
               "name": "PalmTree1"
-            },
-            {
-              "name": "RealisticSand"
             }
           ]
         }
       ],
       "variables": [
         {
-          "name": "Coins",
+          "name": "Worms",
           "type": "number",
           "value": 0
         },
@@ -3033,7 +3030,7 @@
         },
         {
           "assetStoreId": "",
-          "name": "CoinExplosion",
+          "name": "WormExplosion",
           "type": "ParticleEmitter3D::ParticleEmitter3D",
           "variant": "",
           "variables": [],
@@ -3230,74 +3227,6 @@
             "width": 402,
             "animations": []
           }
-        },
-        {
-          "assetStoreId": "779ddcae2ce36616fb6c18a0b98a5bfa0aa401b4817fc64069674fc5f834dfa3",
-          "name": "RealisticSand",
-          "type": "Scene3D::Cube3DObject",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "width": 100,
-            "height": 100,
-            "depth": 100,
-            "enableTextureTransparency": false,
-            "facesOrientation": "Y",
-            "frontFaceResourceName": "BrownSand512.jpg",
-            "backFaceResourceName": "BrownSand512.jpg",
-            "backFaceUpThroughWhichAxisRotation": "X",
-            "leftFaceResourceName": "BrownSand512.jpg",
-            "rightFaceResourceName": "BrownSand512.jpg",
-            "topFaceResourceName": "BrownSand512.jpg",
-            "bottomFaceResourceName": "BrownSand512.jpg",
-            "frontFaceVisible": true,
-            "backFaceVisible": false,
-            "leftFaceVisible": true,
-            "rightFaceVisible": true,
-            "topFaceVisible": true,
-            "bottomFaceVisible": true,
-            "frontFaceResourceRepeat": true,
-            "backFaceResourceRepeat": true,
-            "leftFaceResourceRepeat": true,
-            "rightFaceResourceRepeat": true,
-            "topFaceResourceRepeat": true,
-            "bottomFaceResourceRepeat": true,
-            "materialType": "StandardWithoutMetalness",
-            "tint": "255;255;255"
-          }
-        },
-        {
-          "assetStoreId": "b7466ea1aa604ff523cc814b6bb1d7a7663d4e853f423e8afc33052276d93553",
-          "name": "Worm1",
-          "type": "Scene3D::Model3DObject",
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Collectible",
-              "type": "Collectible::Collectible"
-            },
-            {
-              "name": "LaneObject",
-              "type": "LanePlatformer::LaneObject"
-            }
-          ],
-          "content": {
-            "centerLocation": "ModelOrigin",
-            "crossfadeDuration": 0.10000000149011612,
-            "depth": 15,
-            "height": 15,
-            "keepAspectRatio": true,
-            "materialType": "StandardWithoutMetalness",
-            "modelResourceName": "Worm.glb",
-            "originLocation": "ModelOrigin",
-            "rotationX": 90,
-            "rotationY": 0,
-            "rotationZ": 90,
-            "width": 15,
-            "animations": []
-          }
         }
       ],
       "objectsFolderStructure": {
@@ -3346,16 +3275,13 @@
             "objectName": "SpikeGroup"
           },
           {
-            "objectName": "CoinExplosion"
+            "objectName": "WormExplosion"
           },
           {
             "objectName": "CommonTree4"
           },
           {
             "objectName": "CommonTree1"
-          },
-          {
-            "objectName": "RealisticSand"
           },
           {
             "objectName": "BirchTree5"
@@ -3365,9 +3291,6 @@
           },
           {
             "objectName": "PalmTree1"
-          },
-          {
-            "objectName": "Worm1"
           }
         ]
       },
@@ -3963,7 +3886,7 @@
                             "value": "SetNumberVariable"
                           },
                           "parameters": [
-                            "Coins",
+                            "Worms",
                             "+",
                             "1"
                           ]
@@ -3976,7 +3899,7 @@
                             "ScoreLabel",
                             "Text",
                             "=",
-                            "\"Gusanos: \" + Coins"
+                            "\"Gusanos: \" + Worms"
                           ]
                         },
                         {
@@ -3994,7 +3917,7 @@
                           },
                           "parameters": [
                             "",
-                            "CoinExplosion",
+                            "WormExplosion",
                             "Worm.CenterX()",
                             "Worm.CenterY()",
                             ""
@@ -4005,7 +3928,7 @@
                             "value": "Scene3D::Base3DBehavior::SetCenterZ"
                           },
                           "parameters": [
-                            "CoinExplosion",
+                            "WormExplosion",
                             "Object3D",
                             "=",
                             "Worm.Object3D::CenterZ()"
@@ -4016,7 +3939,7 @@
                             "value": "Scene3D::Base3DBehavior::SetRotationY"
                           },
                           "parameters": [
-                            "CoinExplosion",
+                            "WormExplosion",
                             "Object3D",
                             "=",
                             "-90"
@@ -4223,7 +4146,7 @@
                             "value": "NumberVariable"
                           },
                           "parameters": [
-                            "Coins",
+                            "Worms",
                             ">",
                             "HighScore"
                           ]
@@ -4237,7 +4160,7 @@
                           "parameters": [
                             "Score",
                             "=",
-                            "Coins"
+                            "Worms"
                           ]
                         },
                         {
@@ -4277,7 +4200,7 @@
                             "value": "NumberVariable"
                           },
                           "parameters": [
-                            "Coins",
+                            "Worms",
                             "<=",
                             "HighScore"
                           ]
