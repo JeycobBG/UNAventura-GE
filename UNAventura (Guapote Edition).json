@@ -875,9 +875,121 @@
     ],
     "resourceFolders": []
   },
-  "objects": [],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "name": "Fish",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "LaneCharacter",
+          "type": "LanePlatformer::LaneCharacter",
+          "Object3D": "Object3D",
+          "Tween": "Tween",
+          "LaneDepth": 160,
+          "Lane": 0,
+          "TargetedLane": 0
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "ignoreDefaultControls": true,
+          "acceleration": 2000,
+          "gravity": 1000,
+          "jumpSpeed": 750,
+          "jumpSustainTime": 0,
+          "maxFallingSpeed": 300,
+          "maxSpeed": 500,
+          "canGoDownFromJumpthru": true,
+          "canGrabPlatforms": false,
+          "canGrabWithoutMoving": true,
+          "deceleration": 1500,
+          "ladderClimbingSpeed": 150,
+          "slopeMaxAngle": 60,
+          "useLegacyTrajectory": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        },
+        {
+          "name": "SmoothCameraZ",
+          "type": "LanePlatformer::SmoothCameraZ",
+          "OffsetX": 0,
+          "OffsetY": -100,
+          "ElevationAngle": 25,
+          "Distance": 440
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 100,
+        "height": 100,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "fishAnim.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 0,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 100,
+        "animations": [
+          {
+            "loop": true,
+            "name": "Swim",
+            "source": "ArmatureAction"
+          }
+        ]
+      }
+    },
+    {
+      "assetStoreId": "0e3ee52ba8369c68fe75e3b34a056876ba39b1d0dbb9de6e83e1f2ea0e6f94ac",
+      "name": "Coin",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Collectible",
+          "type": "Collectible::Collectible"
+        },
+        {
+          "name": "LaneObject",
+          "type": "LanePlatformer::LaneObject"
+        }
+      ],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "crossfadeDuration": 0,
+        "depth": 18.752,
+        "height": 62.66935348510742,
+        "keepAspectRatio": true,
+        "materialType": "KeepOriginal",
+        "modelResourceName": "Coin.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 0,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 59.60209369659424,
+        "animations": []
+      }
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Fish"
+      },
+      {
+        "objectName": "Coin"
+      }
+    ]
   },
   "objectsGroups": [],
   "variables": [
@@ -2751,38 +2863,6 @@
           }
         },
         {
-          "assetStoreId": "0e3ee52ba8369c68fe75e3b34a056876ba39b1d0dbb9de6e83e1f2ea0e6f94ac",
-          "name": "Coin",
-          "type": "Scene3D::Model3DObject",
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Collectible",
-              "type": "Collectible::Collectible"
-            },
-            {
-              "name": "LaneObject",
-              "type": "LanePlatformer::LaneObject"
-            }
-          ],
-          "content": {
-            "centerLocation": "ModelOrigin",
-            "crossfadeDuration": 0,
-            "depth": 18.752,
-            "height": 62.66935348510742,
-            "keepAspectRatio": true,
-            "materialType": "KeepOriginal",
-            "modelResourceName": "Coin.glb",
-            "originLocation": "ModelOrigin",
-            "rotationX": 0,
-            "rotationY": 0,
-            "rotationZ": 0,
-            "width": 59.60209369659424,
-            "animations": []
-          }
-        },
-        {
           "assetStoreId": "",
           "bold": false,
           "italic": false,
@@ -2994,100 +3074,6 @@
           }
         },
         {
-          "assetStoreId": "",
-          "name": "Fish",
-          "type": "Scene3D::Model3DObject",
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "LaneCharacter",
-              "type": "LanePlatformer::LaneCharacter",
-              "Object3D": "Object3D",
-              "Tween": "Tween",
-              "LaneDepth": 160,
-              "Lane": 0,
-              "TargetedLane": 0
-            },
-            {
-              "name": "PlatformerObject",
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "ignoreDefaultControls": true,
-              "acceleration": 2000,
-              "gravity": 1000,
-              "jumpSpeed": 750,
-              "jumpSustainTime": 0,
-              "maxFallingSpeed": 300,
-              "maxSpeed": 500,
-              "canGoDownFromJumpthru": true,
-              "canGrabPlatforms": false,
-              "canGrabWithoutMoving": true,
-              "deceleration": 1500,
-              "ladderClimbingSpeed": 150,
-              "slopeMaxAngle": 60,
-              "useLegacyTrajectory": false,
-              "xGrabTolerance": 10,
-              "yGrabOffset": 0
-            },
-            {
-              "name": "SmoothCameraZ",
-              "type": "LanePlatformer::SmoothCameraZ",
-              "OffsetX": 0,
-              "OffsetY": -100,
-              "ElevationAngle": 25,
-              "Distance": 440
-            },
-            {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
-            }
-          ],
-          "content": {
-            "centerLocation": "ModelOrigin",
-            "crossfadeDuration": 0.10000000149011612,
-            "depth": 100,
-            "height": 100,
-            "keepAspectRatio": true,
-            "materialType": "StandardWithoutMetalness",
-            "modelResourceName": "fishAnim.glb",
-            "originLocation": "ModelOrigin",
-            "rotationX": 0,
-            "rotationY": 0,
-            "rotationZ": 0,
-            "width": 100,
-            "animations": [
-              {
-                "loop": true,
-                "name": "Swim",
-                "source": "ArmatureAction"
-              }
-            ]
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "New3DModel",
-          "type": "Scene3D::Model3DObject",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "centerLocation": "ModelOrigin",
-            "crossfadeDuration": 0.10000000149011612,
-            "depth": 100,
-            "height": 100,
-            "keepAspectRatio": true,
-            "materialType": "StandardWithoutMetalness",
-            "modelResourceName": "",
-            "originLocation": "ModelOrigin",
-            "rotationX": 0,
-            "rotationY": 0,
-            "rotationZ": 0,
-            "width": 100,
-            "animations": []
-          }
-        },
-        {
           "assetStoreId": "c9cb03adae5a82ecd62c86c548125aae778bf810e48015158de70eb8d8fae8ae",
           "name": "CommonTree4",
           "type": "Scene3D::Model3DObject",
@@ -3285,16 +3271,7 @@
             "objectName": "SpikeGroup"
           },
           {
-            "objectName": "Coin"
-          },
-          {
             "objectName": "CoinExplosion"
-          },
-          {
-            "objectName": "Fish"
-          },
-          {
-            "objectName": "New3DModel"
           },
           {
             "objectName": "CommonTree4"
@@ -3881,6 +3858,18 @@
                         }
                       ],
                       "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "fy_chapoteo suave.mp3",
+                            "",
+                            "50",
+                            "RisingPitch"
+                          ]
+                        },
                         {
                           "type": {
                             "value": "SetNumberVariable"
@@ -23874,24 +23863,12 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Reseting the rising pitch variable after being adjusted in the coin collision event."
+                  "comment": "Restablecimiento de la variable de paso ascendente después de ser ajustada en el evento de colisión de monedas."
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
-                    {
-                      "type": {
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "CoinPickUp",
-                        "",
-                        "15",
-                        "RisingPitch"
-                      ]
-                    },
                     {
                       "type": {
                         "value": "SetNumberVariable"
