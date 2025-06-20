@@ -882,6 +882,56 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Cute Fish/Animal/a1761c4d668cdeb99f61d2ea48f597eb61ab0a74e90372e931d22bd422b947f4_Worm.glb",
           "name": "Worm.glb"
         }
+      },
+      {
+        "file": "fy_music level 1.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fy_music level 1.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "fy_music level 2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fy_music level 2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "fy_golpe con obstaculo.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fy_golpe con obstaculo.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "fy_salto burbuja.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fy_salto burbuja.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "fy_music level 3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fy_music level 3.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1077,15 +1127,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 69,
           "keepRatio": true,
           "layer": "",
           "name": "FinalScore",
           "persistentUuid": "770467bc-fc26-4724-8db1-7e1a911da846",
-          "width": 0,
-          "x": 449,
-          "y": 459,
+          "width": 719,
+          "x": 1,
+          "y": 416,
           "zOrder": 39,
           "numberProperties": [],
           "stringProperties": [],
@@ -1100,9 +1151,9 @@
           "layer": "",
           "name": "RestartBtn",
           "persistentUuid": "8d970b02-4237-47f0-a312-2fdee0a1c6a0",
-          "width": 320,
-          "x": 448,
-          "y": 656,
+          "width": 464,
+          "x": 128,
+          "y": 528,
           "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
@@ -1117,7 +1168,18 @@
           "variant": "",
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
+              "bottomEdgeAnchor": 0,
+              "leftEdgeAnchor": 1,
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 2,
+              "topEdgeAnchor": 0,
+              "useLegacyBottomAndRightAnchors": false
+            }
+          ],
           "content": {
             "LeftPadding": 0,
             "RightPadding": 0,
@@ -1205,10 +1267,21 @@
           "underlined": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
+              "bottomEdgeAnchor": 0,
+              "leftEdgeAnchor": 1,
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 2,
+              "topEdgeAnchor": 0,
+              "useLegacyBottomAndRightAnchors": false
+            }
+          ],
           "string": "Puntaje: 0",
           "font": "",
-          "textAlignment": "left",
+          "textAlignment": "center",
           "characterSize": 60,
           "color": {
             "b": 255,
@@ -1231,7 +1304,7 @@
             "underlined": false,
             "text": "Puntaje: 0",
             "font": "",
-            "textAlignment": "left",
+            "textAlignment": "center",
             "verticalTextAlignment": "top",
             "characterSize": 60,
             "color": "255;255;255"
@@ -1278,6 +1351,32 @@
                 "Text",
                 "=",
                 "\"Puntos: \" + Score"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "fy_music level 1.mp3",
+                "1",
+                "",
+                "100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "fy_corriente del rio.mp3",
+                "2",
+                "yes",
+                "2",
+                ""
               ]
             }
           ]
@@ -1378,6 +1477,10 @@
           "type": "AnchorBehavior::AnchorBehavior"
         },
         {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
         },
@@ -1386,8 +1489,24 @@
           "type": "FlippableCapability::FlippableBehavior"
         },
         {
+          "name": "LaneCharacter",
+          "type": "LanePlatformer::LaneCharacter"
+        },
+        {
+          "name": "LaneObject",
+          "type": "LanePlatformer::LaneObject"
+        },
+        {
+          "name": "Object3D",
+          "type": "Scene3D::Base3DBehavior"
+        },
+        {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
         },
         {
           "name": "Resizable",
@@ -1398,8 +1517,16 @@
           "type": "ScalableCapability::ScalableBehavior"
         },
         {
+          "name": "SmoothCameraZ",
+          "type": "LanePlatformer::SmoothCameraZ"
+        },
+        {
           "name": "Text",
           "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ]
     },
@@ -1423,7 +1550,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.296700446389139,
+        "zoomFactor": 0.3998947642150725,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1495,9 +1622,43 @@
           "name": "StartBtn",
           "persistentUuid": "bebef444-1397-4770-8bc0-018bb356bf00",
           "width": 423,
-          "x": 373,
-          "y": 916,
+          "x": 147,
+          "y": 404,
           "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 185,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CreatedBy",
+          "persistentUuid": "a380b10e-f3ab-42bd-b2fd-faf667fedea3",
+          "width": 714,
+          "x": 6,
+          "y": 683,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 170,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Names",
+          "persistentUuid": "01f0ec98-ecf5-42f2-b67d-d58a3d55a1ea",
+          "width": 714,
+          "x": 2,
+          "y": 845,
+          "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1586,7 +1747,18 @@
           "variant": "",
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
+              "bottomEdgeAnchor": 0,
+              "leftEdgeAnchor": 1,
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 2,
+              "topEdgeAnchor": 0,
+              "useLegacyBottomAndRightAnchors": false
+            }
+          ],
           "content": {
             "LeftPadding": 0,
             "RightPadding": 0,
@@ -1663,6 +1835,112 @@
               "width": 288
             }
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "CreatedBy",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
+              "bottomEdgeAnchor": 0,
+              "leftEdgeAnchor": 1,
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 2,
+              "topEdgeAnchor": 0,
+              "useLegacyBottomAndRightAnchors": false
+            }
+          ],
+          "string": "Creado por:",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Creado por:",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "center",
+            "characterSize": 40,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Names",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
+              "bottomEdgeAnchor": 0,
+              "leftEdgeAnchor": 1,
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 2,
+              "topEdgeAnchor": 0,
+              "useLegacyBottomAndRightAnchors": false
+            }
+          ],
+          "string": "Daniel Briones Vargas\nGerald Calderón Castillo\nJeison Madrigal Ortiz\nJeycob Barrientos García\nYeiler Montes Rojas",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Daniel Briones Vargas\nGerald Calderón Castillo\nJeison Madrigal Ortiz\nJeycob Barrientos García\nYeiler Montes Rojas",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "center",
+            "characterSize": 30,
+            "color": "255;255;255"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -1682,10 +1960,57 @@
           },
           {
             "objectName": "StartBtn"
+          },
+          {
+            "objectName": "CreatedBy"
+          },
+          {
+            "objectName": "Names"
           }
         ]
       },
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "fy_music level 1.mp3",
+                "1",
+                "",
+                "100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "fy_corriente del rio.mp3",
+                "2",
+                "yes",
+                "2",
+                ""
+              ]
+            }
+          ]
+        },
         {
           "colorB": 33,
           "colorG": 211,
@@ -1711,12 +2036,60 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "fy_golpe con obstaculo.mp3",
+                    "4",
+                    "",
+                    "100",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "fy_music level 2.mp3",
+                    "3",
+                    "",
+                    "100",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Scene"
                   },
                   "parameters": [
                     "",
                     "\"Game\"",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FadeMusicVolume"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "0",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FadeMusicVolume"
+                  },
+                  "parameters": [
+                    "",
+                    "2",
+                    "0",
+                    "3"
                   ]
                 }
               ]
@@ -1761,6 +2134,10 @@
           "type": "AnchorBehavior::AnchorBehavior"
         },
         {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
         },
@@ -1769,8 +2146,24 @@
           "type": "FlippableCapability::FlippableBehavior"
         },
         {
+          "name": "LaneCharacter",
+          "type": "LanePlatformer::LaneCharacter"
+        },
+        {
+          "name": "LaneObject",
+          "type": "LanePlatformer::LaneObject"
+        },
+        {
+          "name": "Object3D",
+          "type": "Scene3D::Base3DBehavior"
+        },
+        {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
         },
         {
           "name": "Resizable",
@@ -1781,8 +2174,16 @@
           "type": "ScalableCapability::ScalableBehavior"
         },
         {
+          "name": "SmoothCameraZ",
+          "type": "LanePlatformer::SmoothCameraZ"
+        },
+        {
           "name": "Text",
           "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ]
     },
@@ -3588,6 +3989,19 @@
                             "PlatformerObject",
                             "\"Jump\""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlayMusicCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "fy_salto burbuja.mp3",
+                            "7",
+                            "",
+                            "100",
+                            ""
+                          ]
                         }
                       ]
                     },
@@ -3955,6 +4369,47 @@
                           ]
                         }
                       ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "TimeScale()",
+                            ">",
+                            "1.1"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "FadeMusicVolume"
+                          },
+                          "parameters": [
+                            "",
+                            "3",
+                            "0",
+                            "3"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlayMusicCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "fy_music level 3.mp3",
+                            "8",
+                            "",
+                            "100",
+                            ""
+                          ]
+                        }
+                      ]
                     }
                   ],
                   "parameters": []
@@ -4059,6 +4514,37 @@
                           ]
                         }
                       ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Fish",
+                            "SpikeGroup",
+                            "100",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlayMusicCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "fy_rugido apagado.mp3",
+                            "9",
+                            "",
+                            "100",
+                            ""
+                          ]
+                        }
+                      ]
                     }
                   ],
                   "parameters": []
@@ -4082,7 +4568,17 @@
               ]
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "StopMusicCanal"
+              },
+              "parameters": [
+                "",
+                "8"
+              ]
+            }
+          ],
           "events": [
             {
               "colorB": 228,
@@ -23180,6 +23676,19 @@
                         "-",
                         "1"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlayMusicCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "fy_chapoteo suave.mp3",
+                        "5",
+                        "",
+                        "100",
+                        ""
+                      ]
                     }
                   ]
                 }
@@ -23256,6 +23765,19 @@
                         "Behavior",
                         "+",
                         "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlayMusicCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "fy_chapoteo suave.mp3",
+                        "6",
+                        "",
+                        "100",
+                        ""
                       ]
                     }
                   ]
