@@ -565,6 +565,18 @@
         "userAdded": false
       },
       {
+        "file": "assets/Red Button With Gold Frame_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Button With Gold Frame_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/efae8667310d19ec644147356eb91a417f9558f93f4ea3648611fe5a79fb0f3a_Red Button With Gold Frame_Hovered.png",
+          "name": "Red Button With Gold Frame_Hovered.png"
+        }
+      },
+      {
         "file": "assets/Willow 5.glb",
         "kind": "model3D",
         "metadata": "",
@@ -718,6 +730,147 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Cubes/7bd11dd2e67b605e5ec2195b01c49c348f24aa3cb690c112abbdcdf87d6eaa4a_BrownSand512.jpg",
           "name": "BrownSand512.jpg"
         }
+      },
+      {
+        "file": "assets/Red Button With Gold Frame_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Button With Gold Frame_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/4b95308670b04c19600672083409d5d39dde7096139d36a89e18111cc547835c_Red Button With Gold Frame_Idle.png",
+          "name": "Red Button With Gold Frame_Idle.png"
+        }
+      },
+      {
+        "file": "assets/Red Button With Gold Frame_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Button With Gold Frame_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/8914d295c54909f59b10d76edbd01797409a0f09119c3acd2576e3ce3cf378b9_Red Button With Gold Frame_Pressed.png",
+          "name": "Red Button With Gold Frame_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/Roboto-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Roboto-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/e96b43b0ca3fd7775d75a702f44cd1b0dfd325e1db317f7cba84efdf572571fe_Roboto-Regular.ttf",
+          "name": "Roboto-Regular.ttf"
+        }
+      },
+      {
+        "file": "cocoanim.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "cocoanim.glb",
+        "userAdded": false
+      },
+      {
+        "file": "cocoanim2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "cocoanim2.glb",
+        "userAdded": false
+      },
+      {
+        "file": "worm_animation.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "worm_animation.glb",
+        "userAdded": false
+      },
+      {
+        "file": "worm_animation2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "worm_animation2.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/Squirmy Wormy_Hurt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Squirmy Wormy_Hurt.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Character/Squirmy Wormy/691778b7329e0250449179e60e7855893e87b5c2b48c89d227271077127dd191_Squirmy Wormy_Hurt.png",
+          "name": "Squirmy Wormy_Hurt.png"
+        }
+      },
+      {
+        "file": "assets/Squirmy Wormy_Movement_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Squirmy Wormy_Movement_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Character/Squirmy Wormy/32480bc4d928e39fe964cff1f4259d9e84214ca17ec2c906d94229b5f53da5d7_Squirmy Wormy_Movement_1.png",
+          "name": "Squirmy Wormy_Movement_1.png"
+        }
+      },
+      {
+        "file": "assets/Squirmy Wormy_Movement_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Squirmy Wormy_Movement_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Character/Squirmy Wormy/96a3a535142f8ba2ce94dc6ac391d00c60caf2f565c4b9ea7bc33469d66c6bd4_Squirmy Wormy_Movement_2.png",
+          "name": "Squirmy Wormy_Movement_2.png"
+        }
+      },
+      {
+        "file": "assets/Squirmy Wormy_Movement_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Squirmy Wormy_Movement_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Character/Squirmy Wormy/fe8f5baef13d86a93cdbf06483c3bd9800b08d56abccda3da984fcaa73d2ef24_Squirmy Wormy_Movement_3.png",
+          "name": "Squirmy Wormy_Movement_3.png"
+        }
+      },
+      {
+        "file": "fy_corriente del rio.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fy_corriente del rio.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "fy_rugido apagado.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fy_rugido apagado.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "fy_chapoteo suave.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fy_chapoteo suave.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -733,12 +886,6 @@
       "name": "Score",
       "type": "number",
       "value": 0
-    },
-    {
-      "folded": true,
-      "name": "PlayerName",
-      "type": "string",
-      "value": ""
     }
   ],
   "layouts": [
@@ -762,7 +909,7 @@
         "gridColor": 16777215,
         "gridAlpha": 0.21,
         "snap": true,
-        "zoomFactor": 0.47751445572235834,
+        "zoomFactor": 0.35429009041461834,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -792,15 +939,32 @@
         {
           "angle": 0,
           "customSize": false,
-          "height": 464,
+          "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "LeaderboardDialog",
-          "persistentUuid": "7c8178f1-159f-4aa2-97d0-99b16b520499",
-          "width": 800,
-          "x": 16,
-          "y": 240,
-          "zOrder": 38,
+          "name": "FinalScore",
+          "persistentUuid": "770467bc-fc26-4724-8db1-7e1a911da846",
+          "width": 0,
+          "x": 449,
+          "y": 459,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 176,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RestartBtn",
+          "persistentUuid": "8d970b02-4237-47f0-a312-2fdee0a1c6a0",
+          "width": 320,
+          "x": 448,
+          "y": 656,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -808,80 +972,130 @@
       ],
       "objects": [
         {
-          "assetStoreId": "0e3ee52ba8369c68fe75e3b34a056876ba39b1d0dbb9de6e83e1f2ea0e6f94ac",
-          "name": "Coin",
-          "type": "Scene3D::Model3DObject",
-          "variables": [
-            {
-              "folded": true,
-              "name": "RotationX",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "folded": true,
-              "name": "RotationY",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "folded": true,
-              "name": "RotationZ",
-              "type": "number",
-              "value": 0
-            }
-          ],
+          "assetStoreId": "1d520e09dda1f2a1eae840a3133286acfff11151176c0eb2718d9f6a186d13c3",
+          "name": "RestartBtn",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
+          "variables": [],
           "effects": [],
-          "behaviors": [
-            {
-              "name": "ScreenWrap",
-              "type": "ScreenWrap::ScreenWrap",
-              "HorizontalWrapping": false,
-              "VerticalWrapping": true,
-              "BorderTop": 0,
-              "BorderLeft": 0,
-              "BorderRight": 0,
-              "BorderBottom": 0,
-              "TriggerOffset": 500
-            }
-          ],
+          "behaviors": [],
           "content": {
-            "centerLocation": "ModelOrigin",
-            "crossfadeDuration": 0,
-            "depth": 64,
-            "height": 64,
-            "keepAspectRatio": true,
-            "materialType": "StandardWithoutMetalness",
-            "modelResourceName": "Coin.glb",
-            "originLocation": "ModelOrigin",
-            "rotationX": 0,
-            "rotationY": 0,
-            "rotationZ": 0,
-            "width": 64,
-            "animations": []
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 2,
+            "BottomPadding": 0,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0.2
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 0,
+              "height": 64,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "Red Button With Gold Frame_Hovered.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 288
+            },
+            "Idle": {
+              "bottomMargin": 0,
+              "height": 64,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "Red Button With Gold Frame_Idle.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 288
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "Reiniciar",
+              "font": "Roboto-Regular.ttf",
+              "textAlignment": "center",
+              "characterSize": 40,
+              "color": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "Reiniciar",
+                "font": "Roboto-Regular.ttf",
+                "textAlignment": "center",
+                "verticalTextAlignment": "top",
+                "characterSize": 40,
+                "color": "255;255;255"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 0,
+              "height": 64,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "Red Button With Gold Frame_Pressed.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 288
+            }
           }
         },
         {
           "assetStoreId": "",
-          "name": "LeaderboardDialog",
-          "type": "LeaderboardDialog::LeaderboardDialog",
-          "variant": "",
+          "bold": true,
+          "italic": false,
+          "name": "FinalScore",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
           "variables": [],
           "effects": [],
-          "behaviors": [
-            {
-              "name": "Anchor",
-              "type": "AnchorBehavior::AnchorBehavior",
-              "bottomEdgeAnchor": 0,
-              "leftEdgeAnchor": 4,
-              "relativeToOriginalWindowSize": true,
-              "rightEdgeAnchor": 4,
-              "topEdgeAnchor": 0,
-              "useLegacyBottomAndRightAnchors": false
-            }
-          ],
+          "behaviors": [],
+          "string": "Puntaje: 0",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
           "content": {
-            "LeaderboardId": "2392ae63-5ed6-4d1b-9ca5-157d64602a81"
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "255;255;255",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Puntaje: 0",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 60,
+            "color": "255;255;255"
           }
         }
       ],
@@ -893,12 +1107,12 @@
             "quickCustomizationVisibility": "hidden",
             "children": [
               {
-                "objectName": "LeaderboardDialog"
+                "objectName": "RestartBtn"
+              },
+              {
+                "objectName": "FinalScore"
               }
             ]
-          },
-          {
-            "objectName": "Coin"
           }
         ]
       },
@@ -918,24 +1132,13 @@
           "actions": [
             {
               "type": {
-                "value": "LeaderboardDialog::LeaderboardDialog::SetScore"
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "LeaderboardDialog",
+                "FinalScore",
+                "Text",
                 "=",
-                "Score",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "LeaderboardDialog::LeaderboardDialog::SetDefaultPlayerName"
-              },
-              "parameters": [
-                "LeaderboardDialog",
-                "=",
-                "PlayerName",
-                ""
+                "\"Puntos: \" + Score"
               ]
             }
           ]
@@ -945,51 +1148,15 @@
           "conditions": [
             {
               "type": {
-                "value": "LeaderboardDialog::LeaderboardDialog::IsRestartClicked"
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
               },
               "parameters": [
-                "LeaderboardDialog",
+                "RestartBtn",
                 ""
               ]
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Game\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "LeaderboardDialog::LeaderboardDialog::IsScoreSubmitted"
-              },
-              "parameters": [
-                "LeaderboardDialog",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "PlayerName",
-                "=",
-                "LeaderboardDialog.PlayerName()"
-              ]
-            },
             {
               "type": {
                 "value": "Scene"
@@ -1072,20 +1239,12 @@
           "type": "AnchorBehavior::AnchorBehavior"
         },
         {
-          "name": "Animation",
-          "type": "AnimatableCapability::AnimatableBehavior"
-        },
-        {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
         },
         {
           "name": "Flippable",
           "type": "FlippableCapability::FlippableBehavior"
-        },
-        {
-          "name": "Object3D",
-          "type": "Scene3D::Base3DBehavior"
         },
         {
           "name": "Opacity",
@@ -1098,14 +1257,6 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
-        },
-        {
-          "name": "ScreenWrap",
-          "type": "ScreenWrap::ScreenWrap"
-        },
-        {
-          "name": "Sticker",
-          "type": "Sticker::Sticker"
         },
         {
           "name": "Text",
@@ -1194,6 +1345,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 172,
+          "keepRatio": true,
+          "layer": "",
+          "name": "StartBtn",
+          "persistentUuid": "bebef444-1397-4770-8bc0-018bb356bf00",
+          "width": 423,
+          "x": 373,
+          "y": 916,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -1273,68 +1441,58 @@
           ]
         },
         {
-          "assetStoreId": "055eaaaceaa6fa09820aff95e0291764fbd98d84a9c2fb8cb3c4e059010a477b",
-          "name": "Start",
+          "assetStoreId": "1d520e09dda1f2a1eae840a3133286acfff11151176c0eb2718d9f6a186d13c3",
+          "name": "StartBtn",
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variant": "",
           "variables": [],
           "effects": [],
-          "behaviors": [
-            {
-              "name": "Anchor",
-              "type": "AnchorBehavior::AnchorBehavior",
-              "bottomEdgeAnchor": 0,
-              "leftEdgeAnchor": 4,
-              "relativeToOriginalWindowSize": true,
-              "rightEdgeAnchor": 0,
-              "topEdgeAnchor": 0,
-              "useLegacyBottomAndRightAnchors": false
-            }
-          ],
+          "behaviors": [],
           "content": {
-            "BottomPadding": 16,
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 2,
+            "BottomPadding": 0,
             "TopPadding": 0,
-            "LeftPadding": 10,
-            "RightPadding": 10,
-            "PressedLabelOffsetY": 3
+            "HoveredFadeOutDuration": 0.2
           },
           "childrenContent": {
             "Hovered": {
-              "bottomMargin": 50,
-              "height": 128,
-              "leftMargin": 37,
-              "rightMargin": 32,
-              "texture": "Yellow Jelly Button_Hovered.png",
+              "bottomMargin": 0,
+              "height": 64,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "Red Button With Gold Frame_Hovered.png",
               "tiled": false,
-              "topMargin": 50,
-              "width": 256
+              "topMargin": 0,
+              "width": 288
             },
             "Idle": {
-              "bottomMargin": 50,
-              "height": 128,
-              "leftMargin": 37,
-              "rightMargin": 32,
-              "texture": "Yellow Jelly Button_Idle.png",
+              "bottomMargin": 0,
+              "height": 64,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "Red Button With Gold Frame_Idle.png",
               "tiled": false,
-              "topMargin": 50,
-              "width": 256
+              "topMargin": 0,
+              "width": 288
             },
             "Label": {
-              "bold": true,
+              "bold": false,
               "italic": false,
               "smoothed": true,
               "underlined": false,
               "string": "Iniciar",
-              "font": "Rubik-Regular.ttf",
+              "font": "Roboto-Regular.ttf",
               "textAlignment": "center",
-              "characterSize": 80,
+              "characterSize": 40,
               "color": {
-                "b": 0,
-                "g": 42,
-                "r": 117
+                "b": 255,
+                "g": 255,
+                "r": 255
               },
               "content": {
-                "bold": true,
+                "bold": false,
                 "isOutlineEnabled": false,
                 "isShadowEnabled": false,
                 "italic": false,
@@ -1348,22 +1506,22 @@
                 "smoothed": true,
                 "underlined": false,
                 "text": "Iniciar",
-                "font": "Rubik-Regular.ttf",
+                "font": "Roboto-Regular.ttf",
                 "textAlignment": "center",
                 "verticalTextAlignment": "top",
-                "characterSize": 80,
-                "color": "117;42;0"
+                "characterSize": 40,
+                "color": "255;255;255"
               }
             },
             "Pressed": {
-              "bottomMargin": 50,
-              "height": 128,
-              "leftMargin": 37,
-              "rightMargin": 32,
-              "texture": "Yellow Jelly Button_Pressed.png",
+              "bottomMargin": 0,
+              "height": 64,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "Red Button With Gold Frame_Pressed.png",
               "tiled": false,
-              "topMargin": 50,
-              "width": 256
+              "topMargin": 0,
+              "width": 288
             }
           }
         }
@@ -1384,7 +1542,7 @@
             "objectName": "Title"
           },
           {
-            "objectName": "Start"
+            "objectName": "StartBtn"
           }
         ]
       },
@@ -1394,7 +1552,7 @@
           "colorG": 211,
           "colorR": 126,
           "creationTime": 0,
-          "name": "Scene transition",
+          "name": "Transición de escena",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -1406,7 +1564,7 @@
                     "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
                   },
                   "parameters": [
-                    "Start",
+                    "StartBtn",
                     ""
                   ]
                 }
@@ -1509,7 +1667,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.17708595277544353,
+        "zoomFactor": 0.39251611754882876,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1837,8 +1995,8 @@
           "name": "GroundElevated",
           "persistentUuid": "54d6e161-ad60-4334-bf40-b58225b191ad",
           "width": 768,
-          "x": 1472,
-          "y": 352,
+          "x": 1504,
+          "y": 320,
           "z": 240,
           "zOrder": 8,
           "numberProperties": [],
@@ -2573,17 +2731,23 @@
           "content": {
             "centerLocation": "ObjectCenter",
             "crossfadeDuration": 0,
-            "depth": 99,
-            "height": 99,
+            "depth": 48.561826610281514,
+            "height": 400,
             "keepAspectRatio": true,
             "materialType": "KeepOriginal",
-            "modelResourceName": "Spike Group.glb",
+            "modelResourceName": "cocoanim.glb",
             "originLocation": "ObjectCenter",
             "rotationX": 0,
-            "rotationY": 0,
+            "rotationY": -90,
             "rotationZ": 0,
-            "width": 99,
-            "animations": []
+            "width": 150,
+            "animations": [
+              {
+                "loop": true,
+                "name": "Wait",
+                "source": "ArmatureAction"
+              }
+            ]
           }
         },
         {
@@ -3240,6 +3404,18 @@
                 "Platform",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "fy_corriente del rio.mp3",
+                "yes",
+                "10",
+                ""
+              ]
             }
           ],
           "events": [
@@ -3253,7 +3429,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Adjusting the tutorial text for a mobile game."
+              "comment": "Ajustando el texto del tutorial para un juego móvil."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -3314,7 +3490,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "name": "When the game is playing",
+              "name": "Cuando el juego esta en juego",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
@@ -3323,7 +3499,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "name": "Player movement controls",
+                  "name": "Controles de movimiento del pez",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
@@ -3337,7 +3513,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Make the character move ahead."
+                      "comment": "HAcer que el personaje avance"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -3620,7 +3796,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Lane change end\nChecking which objects are valid after the player changes lanes."
+                      "comment": "Fin del cambio de carril\nComprobar qué objetos son válidos después de que el jugador cambie de carril."
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -3660,7 +3836,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "name": "Coins",
+                  "name": "Monedas",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
@@ -3674,7 +3850,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Collision checks if objects are in the proper lane."
+                      "comment": "Comprueba si los objetos se encuentran en el carril correcto."
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -3788,7 +3964,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "name": "Death",
+                  "name": "Muerte",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
@@ -3802,7 +3978,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Player falling."
+                      "comment": "Jugador cayendo."
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -3841,7 +4017,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Collision checks if objects are in the proper lane."
+                      "comment": "Comprueba si los objetos se encuentran en el carril correcto."
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -3913,7 +4089,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "name": "When the game is over",
+              "name": "Cuando el juego termina",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
@@ -3934,7 +4110,7 @@
                       },
                       "parameters": [
                         "",
-                        "DeathSound",
+                        "fy_rugido apagado.mp3",
                         "",
                         "50",
                         "0.7"
@@ -4063,7 +4239,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Spawning/Deleting levels",
+          "name": "Generación/Eliminación de niveles",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -4077,7 +4253,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Picking a random layout from the list and creating it ahead of the player."
+              "comment": "Elegir un diseño aleatorio de la lista y crearlo antes que el jugador."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -4129,7 +4305,8 @@
                         "",
                         "\"Layout\" + ToString(RandomInRange(1, 9))",
                         "StartMarker.X()+2048",
-                        "StartMarker.Y()"
+                        "StartMarker.Y()",
+                        ""
                       ]
                     }
                   ],
@@ -4167,7 +4344,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Deleting objects that go too far behind the player to improve performance."
+              "comment": "Eliminar objetos que van demasiado lejos detrás del reproductor para mejorar el rendimiento."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -23711,7 +23888,7 @@
                         "",
                         "CoinPickUp",
                         "",
-                        "50",
+                        "15",
                         "RisingPitch"
                       ]
                     },
@@ -25166,7 +25343,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.24672586957406395,
+        "zoomFactor": 0.49508400737488983,
         "windowMask": false
       }
     },
