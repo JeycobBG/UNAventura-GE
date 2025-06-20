@@ -563,6 +563,161 @@
         "name": "assets\\Trail_river.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Willow 5.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Willow 5.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Rocks and Trees/Plant/7fe7c128d16918dad7c7906845b89da542ca783a05831d47f83441be2d8bdd2a_Willow 5.glb",
+          "name": "Willow 5.glb"
+        }
+      },
+      {
+        "file": "assets/Cactus Flower 1.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Cactus Flower 1.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Rocks and Trees/Plant/75c76a61f9049da4179425178e3368e3d5b91677a7704143dbfadc8ea9ce483e_Cactus Flower 1.glb",
+          "name": "Cactus Flower 1.glb"
+        }
+      },
+      {
+        "file": "assets/Plant 4.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Plant 4.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Rocks and Trees/Plant/5f4ace27e3a513a4e2eac583fe9aff3962c7e01f7fcab77a0d9ceecccacb59d8_Plant 4.glb",
+          "name": "Plant 4.glb"
+        }
+      },
+      {
+        "file": "assets/Common Tree 4.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Common Tree 4.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Rocks and Trees/Plant/79dd91741d24352562a206734cc2d282a5ddfc1796b3df98a0ffd385e018d84a_Common Tree 4.glb",
+          "name": "Common Tree 4.glb"
+        }
+      },
+      {
+        "file": "assets/Plant 1.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Plant 1.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Rocks and Trees/Plant/2e8799a6eccd38d0c1a36734b62aca5d81eed9dc578f9d61d931a88c422640fb_Plant 1.glb",
+          "name": "Plant 1.glb"
+        }
+      },
+      {
+        "file": "assets/Plant 2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Plant 2.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Rocks and Trees/Plant/a0042e1dd73b631fb82adf4485d9608651d994d2f38b8a0795838ec3e22e7bb9_Plant 2.glb",
+          "name": "Plant 2.glb"
+        }
+      },
+      {
+        "file": "assets/Grass.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Grass.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Rocks and Trees/Plant/0cb362cb36ecbe654ad32e458334e319e1318ccf79abfadaf0e300eb4fc9e119_Grass.glb",
+          "name": "Grass.glb"
+        }
+      },
+      {
+        "file": "assets/Wood Log Moss.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Wood Log Moss.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Rocks and Trees/Plant/3a62f46d74791dcda0ada03286731c5cbbfbeecd7a92f0f7594c337b7436ae23_Wood Log Moss.glb",
+          "name": "Wood Log Moss.glb"
+        }
+      },
+      {
+        "file": "assets/Common Tree 1.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Common Tree 1.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Rocks and Trees/Plant/7c4f3d2324ecd1f8910652478dd7bcb1ac714b260c66a562318c3f72c37bb404_Common Tree 1.glb",
+          "name": "Common Tree 1.glb"
+        }
+      },
+      {
+        "file": "assets/Birch Tree 5.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Birch Tree 5.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Rocks and Trees/Plant/d7eb55b3b89a14f13eee8a48ad7c3127861961fa0b7a42aeaa9b2c2b1b7fae5e_Birch Tree 5.glb",
+          "name": "Birch Tree 5.glb"
+        }
+      },
+      {
+        "file": "assets/Flowers.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Flowers.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Rocks and Trees/Plant/57724bdc375d5bafba88ece0f8d72de38ec8488d7408f7fda5a0c81068349024_Flowers.glb",
+          "name": "Flowers.glb"
+        }
+      },
+      {
+        "file": "assets/Grass Short.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Grass Short.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Rocks and Trees/Plant/759f1b32607cb72740a62a0bcc95f979b1af5028a729e43f027d50258036715b_Grass Short.glb",
+          "name": "Grass Short.glb"
+        }
+      },
+      {
+        "file": "assets/Palm Tree 1.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Palm Tree 1.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Rocks and Trees/Plant/4a3fdf0a531f7238a41b5eab4123b18c343e8ceb1508b86d932cb2af0fb45b95_Palm Tree 1.glb",
+          "name": "Palm Tree 1.glb"
+        }
+      },
+      {
+        "file": "assets/BrownSand512.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "BrownSand512.jpg",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Cubes/7bd11dd2e67b605e5ec2195b01c49c348f24aa3cb690c112abbdcdf87d6eaa4a_BrownSand512.jpg",
+          "name": "BrownSand512.jpg"
+        }
       }
     ],
     "resourceFolders": []
@@ -1354,7 +1509,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.2817259932079601,
+        "zoomFactor": 0.17708595277544353,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1394,6 +1549,29 @@
             },
             {
               "name": "Coin"
+            }
+          ]
+        },
+        {
+          "name": "Trees",
+          "objects": [
+            {
+              "name": "CommonTree4"
+            },
+            {
+              "name": "CommonTree1"
+            },
+            {
+              "name": "BirchTree5"
+            },
+            {
+              "name": "PalmTree2"
+            },
+            {
+              "name": "PalmTree1"
+            },
+            {
+              "name": "RealisticSand"
             }
           ]
         }
@@ -1660,7 +1838,7 @@
           "persistentUuid": "54d6e161-ad60-4334-bf40-b58225b191ad",
           "width": 768,
           "x": 1472,
-          "y": 320,
+          "y": 352,
           "z": 240,
           "zOrder": 8,
           "numberProperties": [],
@@ -1888,100 +2066,328 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 463.89331971563706,
+          "height": 263.0058350206501,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CommonTree4",
+          "persistentUuid": "9bc241e8-963e-43e5-83bb-16984c7004d0",
+          "rotationX": 90,
+          "width": 300,
+          "x": 637,
+          "y": 440,
+          "z": -100,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 463.89331971563706,
+          "height": 263.0058350206501,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CommonTree4",
+          "persistentUuid": "034b9762-b0b5-4ee3-8785-c352b96affeb",
+          "rotationX": 90,
+          "rotationY": 68,
+          "width": 300,
+          "x": 474,
+          "y": 440,
+          "z": 500,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grass",
+          "persistentUuid": "050673ab-e932-4170-9623-685b61e49572",
+          "rotationX": 90,
+          "width": 0,
+          "x": 369,
+          "y": 440,
+          "z": 500,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BirchTree5",
+          "persistentUuid": "5777295e-debf-4361-8a98-3c91c6bb8b9b",
+          "rotationX": 90,
+          "width": 0,
+          "x": 257,
+          "y": 440,
+          "z": -200,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 357.79878151556534,
+          "height": 272.4877810023415,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CommonTree1",
+          "persistentUuid": "56f44c6f-2fc2-4791-a6ea-072a3f785089",
+          "rotationX": 90,
+          "width": 400,
+          "x": 2326,
+          "y": 440,
+          "z": -100,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 357.79878151556534,
+          "height": 272.4877810023415,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CommonTree1",
+          "persistentUuid": "04a29cec-dd1f-4332-85ef-57ccea7878c7",
+          "rotationX": 90,
+          "rotationY": 52,
+          "width": 400,
+          "x": 1700,
+          "y": 440,
+          "z": 500,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BirchTree5",
+          "persistentUuid": "fc4c7fa4-37e4-4721-8a5d-feb2e56d8b68",
+          "rotationX": 90,
+          "width": 0,
+          "x": 993,
+          "y": 453,
+          "z": 500,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BirchTree5",
+          "persistentUuid": "e1a91499-f20f-4b68-837c-c23f3ea784be",
+          "rotationX": 90,
+          "width": 0,
+          "x": 2432,
+          "y": 440,
+          "z": 700,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 447.24847689445664,
+          "height": 340.60972625292686,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CommonTree1",
+          "persistentUuid": "ba6fea05-0c86-42b3-89e9-676aadf3a013",
+          "rotationX": 90,
+          "rotationY": 30,
+          "width": 500,
+          "x": 2092,
+          "y": 440,
+          "z": 660,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 463.89331971563695,
+          "height": 263.00583502065,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CommonTree4",
+          "persistentUuid": "c773e25c-69d3-4a4d-bff1-43cd478cd1f6",
+          "rotationX": 90,
+          "rotationY": 234,
+          "width": 300,
+          "x": 928,
+          "y": 440,
+          "z": 786,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 463.89331971563695,
+          "height": 263.00583502065,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CommonTree4",
+          "persistentUuid": "334bcb28-fc32-4e4b-9cea-17bd59456040",
+          "rotationX": 90,
+          "rotationY": 234,
+          "width": 300,
+          "x": 1158,
+          "y": 440,
+          "z": -300,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BirchTree5",
+          "persistentUuid": "61320196-1ba9-4014-ab82-b84dc72d1cdd",
+          "rotationX": 90,
+          "rotationY": 89,
+          "width": 0,
+          "x": 1683,
+          "y": 421,
+          "z": -300,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BirchTree5",
+          "persistentUuid": "57cf60a6-db47-42ae-9efb-41649ef67c43",
+          "rotationX": 90,
+          "width": 0,
+          "x": 1281,
+          "y": 440,
+          "z": 600,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PalmTree2",
+          "persistentUuid": "70d7d8d9-0418-4254-8f01-c73f59cdd7c1",
+          "rotationX": 90,
+          "width": 0,
+          "x": 832,
+          "y": 440,
+          "z": -159,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PalmTree1",
+          "persistentUuid": "fb0e357f-7fe3-4323-a7de-9ddd9e23d3d6",
+          "rotationX": 90,
+          "width": 0,
+          "x": 704,
+          "y": 440,
+          "z": 579,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PalmTree2",
+          "persistentUuid": "73ad0453-4902-4e06-9d84-3350b4cb4586",
+          "rotationX": 90,
+          "width": 0,
+          "x": 1418,
+          "y": 495,
+          "z": 800,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PalmTree1",
+          "persistentUuid": "4ef4b388-ae9a-45a8-a684-22d92583864b",
+          "rotationX": 90,
+          "width": 0,
+          "x": 1920,
+          "y": 440,
+          "z": -190,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
-        {
-          "assetStoreId": "54b38ee3a7082557b70bfd9a5c139b4ed7327c9f1fd846c861b8d45970a2b127",
-          "name": "Player",
-          "type": "Scene3D::Model3DObject",
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "LaneCharacter",
-              "type": "LanePlatformer::LaneCharacter",
-              "Object3D": "Object3D",
-              "Tween": "Tween",
-              "LaneDepth": 160,
-              "Lane": 0,
-              "TargetedLane": 0
-            },
-            {
-              "name": "PlatformerObject",
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "ignoreDefaultControls": true,
-              "acceleration": 2000,
-              "gravity": 1000,
-              "jumpSpeed": 750,
-              "jumpSustainTime": 0,
-              "maxFallingSpeed": 300,
-              "maxSpeed": 500,
-              "canGoDownFromJumpthru": true,
-              "canGrabPlatforms": false,
-              "canGrabWithoutMoving": true,
-              "deceleration": 1500,
-              "ladderClimbingSpeed": 150,
-              "slopeMaxAngle": 60,
-              "useLegacyTrajectory": false,
-              "xGrabTolerance": 10,
-              "yGrabOffset": 0
-            },
-            {
-              "name": "SmoothCameraZ",
-              "type": "LanePlatformer::SmoothCameraZ",
-              "OffsetX": 0,
-              "OffsetY": -100,
-              "ElevationAngle": 25,
-              "Distance": 440
-            },
-            {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
-            }
-          ],
-          "content": {
-            "centerLocation": "ObjectCenter",
-            "crossfadeDuration": 0.5,
-            "depth": 143,
-            "height": 143,
-            "keepAspectRatio": true,
-            "materialType": "StandardWithoutMetalness",
-            "modelResourceName": "Femal Casual 2.glb",
-            "originLocation": "ObjectCenter",
-            "rotationX": 90,
-            "rotationY": 0,
-            "rotationZ": 90,
-            "width": 143,
-            "animations": [
-              {
-                "loop": true,
-                "name": "Run",
-                "source": "Run"
-              },
-              {
-                "loop": true,
-                "name": "Idle",
-                "source": "Idle"
-              },
-              {
-                "loop": false,
-                "name": "Death",
-                "source": "Death"
-              },
-              {
-                "loop": true,
-                "name": "RunLeft",
-                "source": "Run_Left"
-              },
-              {
-                "loop": true,
-                "name": "RunRight",
-                "source": "Run_Right"
-              }
-            ]
-          }
-        },
         {
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
@@ -2493,6 +2899,180 @@
               }
             ]
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "New3DModel",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "crossfadeDuration": 0.10000000149011612,
+            "depth": 100,
+            "height": 100,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "",
+            "originLocation": "ModelOrigin",
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 100,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "c9cb03adae5a82ecd62c86c548125aae778bf810e48015158de70eb8d8fae8ae",
+          "name": "CommonTree4",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "crossfadeDuration": 0.10000000149011612,
+            "depth": 251,
+            "height": 251,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Common Tree 4.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": -90,
+            "width": 251,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "16fac9714ba0a9eb3c83984910c70b11affca1b4e6a8bed49c22af1d30f957da",
+          "name": "CommonTree1",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "crossfadeDuration": 0.10000000149011612,
+            "depth": 250,
+            "height": 250,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Common Tree 1.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": -90,
+            "width": 250,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "268866cf9c73398e89de7ac4b60cc3efe6d3a5f562a08ff1ba0e1906a148ed90",
+          "name": "BirchTree5",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "crossfadeDuration": 0.10000000149011612,
+            "depth": 451,
+            "height": 451,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Birch Tree 5.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": -90,
+            "width": 451,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "a7b28381e6ccde9809ae886b8359562a060770e28a4d7da06f3a526689072501",
+          "name": "PalmTree1",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "crossfadeDuration": 0.10000000149011612,
+            "depth": 402,
+            "height": 402,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Palm Tree 1.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": -90,
+            "width": 402,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "a7b28381e6ccde9809ae886b8359562a060770e28a4d7da06f3a526689072501",
+          "name": "PalmTree2",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "crossfadeDuration": 0.10000000149011612,
+            "depth": 402,
+            "height": 402,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Palm Tree 1.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": -90,
+            "width": 402,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "779ddcae2ce36616fb6c18a0b98a5bfa0aa401b4817fc64069674fc5f834dfa3",
+          "name": "RealisticSand",
+          "type": "Scene3D::Cube3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "width": 100,
+            "height": 100,
+            "depth": 100,
+            "enableTextureTransparency": false,
+            "facesOrientation": "Y",
+            "frontFaceResourceName": "BrownSand512.jpg",
+            "backFaceResourceName": "BrownSand512.jpg",
+            "backFaceUpThroughWhichAxisRotation": "X",
+            "leftFaceResourceName": "BrownSand512.jpg",
+            "rightFaceResourceName": "BrownSand512.jpg",
+            "topFaceResourceName": "BrownSand512.jpg",
+            "bottomFaceResourceName": "BrownSand512.jpg",
+            "frontFaceVisible": true,
+            "backFaceVisible": false,
+            "leftFaceVisible": true,
+            "rightFaceVisible": true,
+            "topFaceVisible": true,
+            "bottomFaceVisible": true,
+            "frontFaceResourceRepeat": true,
+            "backFaceResourceRepeat": true,
+            "leftFaceResourceRepeat": true,
+            "rightFaceResourceRepeat": true,
+            "topFaceResourceRepeat": true,
+            "bottomFaceResourceRepeat": true,
+            "materialType": "StandardWithoutMetalness",
+            "tint": "255;255;255"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -2538,9 +3118,6 @@
             ]
           },
           {
-            "objectName": "Player"
-          },
-          {
             "objectName": "SpikeGroup"
           },
           {
@@ -2551,6 +3128,27 @@
           },
           {
             "objectName": "Fish"
+          },
+          {
+            "objectName": "New3DModel"
+          },
+          {
+            "objectName": "CommonTree4"
+          },
+          {
+            "objectName": "CommonTree1"
+          },
+          {
+            "objectName": "RealisticSand"
+          },
+          {
+            "objectName": "BirchTree5"
+          },
+          {
+            "objectName": "PalmTree2"
+          },
+          {
+            "objectName": "PalmTree1"
           }
         ]
       },
@@ -3599,6 +4197,44 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Escenary",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Trees",
+                "<",
+                "Fish.X()-500"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Trees",
+                "=",
+                "Fish.X()+1700"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -24530,7 +25166,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.5117784035210186,
+        "zoomFactor": 0.24672586957406395,
         "windowMask": false
       }
     },
