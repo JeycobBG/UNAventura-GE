@@ -563,6 +563,86 @@
         "name": "assets\\Trail_river.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "fy_music level 1.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fy_music level 1.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "fy_corriente del rio.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fy_corriente del rio.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "fy_golpe con obstaculo.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fy_golpe con obstaculo.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "fy_music level 2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fy_music level 2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "fy_salto burbuja.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fy_salto burbuja.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "fy_music level 3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fy_music level 3.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "fy_rugido apagado.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fy_rugido apagado.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "fy_chapoteo suave.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fy_chapoteo suave.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1235,6 +1315,47 @@
       },
       "events": [
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "fy_music level 1.mp3",
+                "1",
+                "yes",
+                "100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "fy_corriente del rio.mp3",
+                "2",
+                "yes",
+                "2",
+                ""
+              ]
+            }
+          ]
+        },
+        {
           "colorB": 33,
           "colorG": 211,
           "colorR": 126,
@@ -1257,6 +1378,53 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "FadeMusicVolume"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "0",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FadeMusicVolume"
+                  },
+                  "parameters": [
+                    "",
+                    "2",
+                    "0",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusic"
+                  },
+                  "parameters": [
+                    "",
+                    "fy_golpe con obstaculo.mp3",
+                    "4",
+                    "100",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "fy_music level 2.mp3",
+                    "3",
+                    "yes",
+                    "100",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "Scene"
@@ -2826,6 +2994,19 @@
                             "PlatformerObject",
                             "\"Jump\""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlayMusicCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "fy_salto burbuja.mp3",
+                            "4",
+                            "yes",
+                            "100",
+                            ""
+                          ]
                         }
                       ]
                     },
@@ -3190,6 +3371,71 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "name": "Cambio de música",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Si pasa el umbral cambia la música"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "TimeScale()",
+                            ">",
+                            "1.2"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlayMusicCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "fy_music level 3.mp3",
+                            "5",
+                            "yes",
+                            "100",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "FadeMusicVolume"
+                          },
+                          "parameters": [
+                            "",
+                            "3",
+                            "0",
+                            "3"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
                   "name": "Muerte",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -3221,6 +3467,19 @@
                         }
                       ],
                       "actions": [
+                        {
+                          "type": {
+                            "value": "PlayMusicCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "fy_rugido apagado.mp3",
+                            "6",
+                            "no",
+                            "100",
+                            ""
+                          ]
+                        },
                         {
                           "type": {
                             "value": "SetStringVariable"
@@ -3283,6 +3542,74 @@
                             "=",
                             "\"GameOver\""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlayMusicCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "fy_rugido apagado.mp3",
+                            "6",
+                            "no",
+                            "100",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Alertas",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "cuando el pez pasa cerca de los picos"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Fish",
+                            "SpikeGroup",
+                            "100",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlayMusicCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "fy_rugido apagado.mp3",
+                            "6",
+                            "no",
+                            "100",
+                            ""
+                          ]
                         }
                       ]
                     }
@@ -3332,25 +3659,15 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "PlaySound"
+                        "value": "PlayMusicCanal"
                       },
                       "parameters": [
                         "",
-                        "DeathSound",
-                        "",
-                        "50",
-                        "0.7"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Animation",
-                        "=",
-                        "\"Death\""
+                        "fy_rugido apagado.mp3",
+                        "6",
+                        "no",
+                        "100",
+                        ""
                       ]
                     },
                     {
@@ -22367,6 +22684,19 @@
                         "-",
                         "1"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlayMusicCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "fy_chapoteo suave.mp3",
+                        "7",
+                        "yes",
+                        "100",
+                        ""
+                      ]
                     }
                   ]
                 }
@@ -22443,6 +22773,19 @@
                         "Behavior",
                         "+",
                         "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlayMusicCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "fy_chapoteo suave.mp3",
+                        "7",
+                        "yes",
+                        "100",
+                        ""
                       ]
                     }
                   ]
