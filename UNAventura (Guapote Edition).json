@@ -612,84 +612,80 @@
         }
       },
       {
-        "file": "fy_music level 1.mp3",
-        "kind": "audio",
+        "file": "cocoanim.glb",
+        "kind": "model3D",
         "metadata": "",
-        "name": "fy_music level 1.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
+        "name": "cocoanim.glb",
         "userAdded": false
       },
       {
-        "file": "fy_corriente del rio.mp3",
-        "kind": "audio",
+        "file": "cocoanim2.glb",
+        "kind": "model3D",
         "metadata": "",
-        "name": "fy_corriente del rio.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
+        "name": "cocoanim2.glb",
         "userAdded": false
       },
       {
-        "file": "fy_golpe con obstaculo.mp3",
-        "kind": "audio",
+        "file": "worm_animation.glb",
+        "kind": "model3D",
         "metadata": "",
-        "name": "fy_golpe con obstaculo.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
+        "name": "worm_animation.glb",
         "userAdded": false
       },
       {
-        "file": "fy_music level 2.mp3",
-        "kind": "audio",
+        "file": "worm_animation2.glb",
+        "kind": "model3D",
         "metadata": "",
-        "name": "fy_music level 2.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
+        "name": "worm_animation2.glb",
         "userAdded": false
       },
       {
-        "file": "fy_salto burbuja.mp3",
-        "kind": "audio",
+        "file": "assets/Squirmy Wormy_Hurt.png",
+        "kind": "image",
         "metadata": "",
-        "name": "fy_salto burbuja.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
+        "name": "Squirmy Wormy_Hurt.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Character/Squirmy Wormy/691778b7329e0250449179e60e7855893e87b5c2b48c89d227271077127dd191_Squirmy Wormy_Hurt.png",
+          "name": "Squirmy Wormy_Hurt.png"
+        }
       },
       {
-        "file": "fy_music level 3.mp3",
-        "kind": "audio",
+        "file": "assets/Squirmy Wormy_Movement_1.png",
+        "kind": "image",
         "metadata": "",
-        "name": "fy_music level 3.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
+        "name": "Squirmy Wormy_Movement_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Character/Squirmy Wormy/32480bc4d928e39fe964cff1f4259d9e84214ca17ec2c906d94229b5f53da5d7_Squirmy Wormy_Movement_1.png",
+          "name": "Squirmy Wormy_Movement_1.png"
+        }
       },
       {
-        "file": "fy_rugido apagado.mp3",
-        "kind": "audio",
+        "file": "assets/Squirmy Wormy_Movement_2.png",
+        "kind": "image",
         "metadata": "",
-        "name": "fy_rugido apagado.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
+        "name": "Squirmy Wormy_Movement_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Character/Squirmy Wormy/96a3a535142f8ba2ce94dc6ac391d00c60caf2f565c4b9ea7bc33469d66c6bd4_Squirmy Wormy_Movement_2.png",
+          "name": "Squirmy Wormy_Movement_2.png"
+        }
       },
       {
-        "file": "fy_chapoteo suave.mp3",
-        "kind": "audio",
+        "file": "assets/Squirmy Wormy_Movement_3.png",
+        "kind": "image",
         "metadata": "",
-        "name": "fy_chapoteo suave.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
+        "name": "Squirmy Wormy_Movement_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Character/Squirmy Wormy/fe8f5baef13d86a93cdbf06483c3bd9800b08d56abccda3da984fcaa73d2ef24_Squirmy Wormy_Movement_3.png",
+          "name": "Squirmy Wormy_Movement_3.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -705,12 +701,6 @@
       "name": "Score",
       "type": "number",
       "value": 0
-    },
-    {
-      "folded": true,
-      "name": "PlayerName",
-      "type": "string",
-      "value": ""
     }
   ],
   "layouts": [
@@ -1373,47 +1363,6 @@
       },
       "events": [
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlayMusicCanal"
-              },
-              "parameters": [
-                "",
-                "fy_music level 1.mp3",
-                "1",
-                "yes",
-                "100",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "PlayMusicCanal"
-              },
-              "parameters": [
-                "",
-                "fy_corriente del rio.mp3",
-                "2",
-                "yes",
-                "2",
-                ""
-              ]
-            }
-          ]
-        },
-        {
           "colorB": 33,
           "colorG": 211,
           "colorR": 126,
@@ -1436,53 +1385,6 @@
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "value": "FadeMusicVolume"
-                  },
-                  "parameters": [
-                    "",
-                    "1",
-                    "0",
-                    "3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "FadeMusicVolume"
-                  },
-                  "parameters": [
-                    "",
-                    "2",
-                    "0",
-                    "3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlayMusic"
-                  },
-                  "parameters": [
-                    "",
-                    "fy_golpe con obstaculo.mp3",
-                    "4",
-                    "100",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlayMusicCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "fy_music level 2.mp3",
-                    "3",
-                    "yes",
-                    "100",
-                    ""
-                  ]
-                },
                 {
                   "type": {
                     "value": "Scene"
@@ -1580,7 +1482,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.34375202416123657,
+        "zoomFactor": 0.39251611754882876,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1599,7 +1501,7 @@
           "name": "Collison",
           "objects": [
             {
-              "name": "Coin"
+              "name": "Worm"
             },
             {
               "name": "SpikeGroup"
@@ -1619,7 +1521,7 @@
               "name": "SpikeGroup"
             },
             {
-              "name": "Coin"
+              "name": "Worm"
             }
           ]
         }
@@ -1799,7 +1701,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "6ee347e0-30d4-4513-b3d3-c70d65192bc9",
           "width": 64,
           "x": 1664,
@@ -1832,7 +1734,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "8f060032-c37a-4092-aa92-cf802eca0b83",
           "width": 64,
           "x": 1408,
@@ -1848,7 +1750,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "8afc0352-bf3a-44a5-b347-8a3fdfd9cca2",
           "width": 64,
           "x": 1536,
@@ -1885,7 +1787,7 @@
           "name": "GroundElevated",
           "persistentUuid": "54d6e161-ad60-4334-bf40-b58225b191ad",
           "width": 768,
-          "x": 1472,
+          "x": 1504,
           "y": 320,
           "z": 240,
           "zOrder": 8,
@@ -1898,7 +1800,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "9fa1cdd4-179f-4353-99de-958ed8bc5c65",
           "width": 64,
           "x": 1920,
@@ -1913,7 +1815,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "89b1e9c1-9530-497f-9509-1def5f104cdd",
           "width": 64,
           "x": 2176,
@@ -1928,7 +1830,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "a35cd0ca-f211-4740-b6e7-c362d980054b",
           "width": 64,
           "x": 1920,
@@ -1944,7 +1846,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "ba36f151-93dd-4fb1-bab3-214d6be4d34b",
           "width": 64,
           "x": 2176,
@@ -1960,7 +1862,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "d941556c-58df-4f34-8217-2be06911035a",
           "width": 64,
           "x": 2048,
@@ -1975,7 +1877,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "089b8a11-f0cf-4183-a73c-e37887b17032",
           "width": 64,
           "x": 2048,
@@ -2393,22 +2295,28 @@
           "content": {
             "centerLocation": "ObjectCenter",
             "crossfadeDuration": 0,
-            "depth": 99,
-            "height": 99,
+            "depth": 48.561826610281514,
+            "height": 400,
             "keepAspectRatio": true,
             "materialType": "KeepOriginal",
-            "modelResourceName": "Spike Group.glb",
+            "modelResourceName": "cocoanim.glb",
             "originLocation": "ObjectCenter",
             "rotationX": 0,
-            "rotationY": 0,
+            "rotationY": -90,
             "rotationZ": 0,
-            "width": 99,
-            "animations": []
+            "width": 150,
+            "animations": [
+              {
+                "loop": true,
+                "name": "Wait",
+                "source": "ArmatureAction"
+              }
+            ]
           }
         },
         {
           "assetStoreId": "0e3ee52ba8369c68fe75e3b34a056876ba39b1d0dbb9de6e83e1f2ea0e6f94ac",
-          "name": "Coin",
+          "name": "Worm",
           "type": "Scene3D::Model3DObject",
           "variables": [],
           "effects": [],
@@ -2435,7 +2343,13 @@
             "rotationY": 0,
             "rotationZ": 0,
             "width": 59.60209369659424,
-            "animations": []
+            "animations": [
+              {
+                "loop": true,
+                "name": "Worm",
+                "source": "ArmatureAction"
+              }
+            ]
           }
         },
         {
@@ -2770,7 +2684,7 @@
             "objectName": "SpikeGroup"
           },
           {
-            "objectName": "Coin"
+            "objectName": "Worm"
           },
           {
             "objectName": "CoinExplosion"
@@ -3052,19 +2966,6 @@
                             "PlatformerObject",
                             "\"Jump\""
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "PlayMusicCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "fy_salto burbuja.mp3",
-                            "4",
-                            "yes",
-                            "100",
-                            ""
-                          ]
                         }
                       ]
                     },
@@ -3301,7 +3202,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "name": "Monedas",
+                  "name": "Gusanos",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
@@ -3325,7 +3226,7 @@
                             "value": "LanePlatformer::LaneObject::IsObjectOnSameLane"
                           },
                           "parameters": [
-                            "Coin",
+                            "Worm",
                             "LaneObject",
                             "Fish",
                             "LaneCharacter",
@@ -3337,7 +3238,7 @@
                             "value": "CollisionNP"
                           },
                           "parameters": [
-                            "Coin",
+                            "Worm",
                             "Fish",
                             "",
                             "",
@@ -3383,8 +3284,8 @@
                           "parameters": [
                             "",
                             "CoinExplosion",
-                            "Coin.CenterX()",
-                            "Coin.CenterY()",
+                            "Worm.CenterX()",
+                            "Worm.CenterY()",
                             ""
                           ]
                         },
@@ -3396,7 +3297,7 @@
                             "CoinExplosion",
                             "Object3D",
                             "=",
-                            "Coin.Object3D::CenterZ()"
+                            "Worm.Object3D::CenterZ()"
                           ]
                         },
                         {
@@ -3415,73 +3316,8 @@
                             "value": "Delete"
                           },
                           "parameters": [
-                            "Coin",
+                            "Worm",
                             ""
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "parameters": []
-                },
-                {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "name": "Cambio de música",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Comment",
-                      "color": {
-                        "b": 109,
-                        "g": 230,
-                        "r": 255,
-                        "textB": 0,
-                        "textG": 0,
-                        "textR": 0
-                      },
-                      "comment": "Si pasa el umbral cambia la música"
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::CompareNumbers"
-                          },
-                          "parameters": [
-                            "TimeScale()",
-                            ">",
-                            "1.2"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "PlayMusicCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "fy_music level 3.mp3",
-                            "5",
-                            "yes",
-                            "100",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "FadeMusicVolume"
-                          },
-                          "parameters": [
-                            "",
-                            "3",
-                            "0",
-                            "3"
                           ]
                         }
                       ]
@@ -3525,19 +3361,6 @@
                         }
                       ],
                       "actions": [
-                        {
-                          "type": {
-                            "value": "PlayMusicCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "fy_rugido apagado.mp3",
-                            "6",
-                            "no",
-                            "100",
-                            ""
-                          ]
-                        },
                         {
                           "type": {
                             "value": "SetStringVariable"
@@ -3599,74 +3422,6 @@
                             "GameState",
                             "=",
                             "\"GameOver\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "PlayMusicCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "fy_rugido apagado.mp3",
-                            "6",
-                            "no",
-                            "100",
-                            ""
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "parameters": []
-                },
-                {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "name": "Alertas",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Comment",
-                      "color": {
-                        "b": 109,
-                        "g": 230,
-                        "r": 255,
-                        "textB": 0,
-                        "textG": 0,
-                        "textR": 0
-                      },
-                      "comment": "cuando el pez pasa cerca de los picos"
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "Distance"
-                          },
-                          "parameters": [
-                            "Fish",
-                            "SpikeGroup",
-                            "100",
-                            ""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "PlayMusicCanal"
-                          },
-                          "parameters": [
-                            "",
-                            "fy_rugido apagado.mp3",
-                            "6",
-                            "no",
-                            "100",
-                            ""
                           ]
                         }
                       ]
@@ -3717,15 +3472,25 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "PlayMusicCanal"
+                        "value": "PlaySound"
                       },
                       "parameters": [
                         "",
-                        "fy_rugido apagado.mp3",
-                        "6",
-                        "no",
-                        "100",
-                        ""
+                        "DeathSound",
+                        "",
+                        "50",
+                        "0.7"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"Death\""
                       ]
                     },
                     {
@@ -3906,7 +3671,8 @@
                         "",
                         "\"Layout\" + ToString(RandomInRange(1, 9))",
                         "StartMarker.X()+2048",
-                        "StartMarker.Y()"
+                        "StartMarker.Y()",
+                        ""
                       ]
                     }
                   ],
@@ -22742,19 +22508,6 @@
                         "-",
                         "1"
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlayMusicCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "fy_chapoteo suave.mp3",
-                        "7",
-                        "yes",
-                        "100",
-                        ""
-                      ]
                     }
                   ]
                 }
@@ -22831,19 +22584,6 @@
                         "Behavior",
                         "+",
                         "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlayMusicCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "fy_chapoteo suave.mp3",
-                        "7",
-                        "yes",
-                        "100",
-                        ""
                       ]
                     }
                   ]
@@ -24878,7 +24618,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "3eba5768-f945-4e72-92c7-c0098f6bb675",
           "width": 64,
           "x": 352,
@@ -24894,7 +24634,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "35a8297d-c18b-4daa-af27-6b89f69bfa83",
           "width": 64,
           "x": 512,
@@ -24910,7 +24650,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "81b0a462-89cc-4903-ac03-5082f0c6c04a",
           "width": 64,
           "x": 192,
@@ -24931,7 +24671,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.5117784035210186,
+        "zoomFactor": 0.49508400737488983,
         "windowMask": false
       }
     },
@@ -25028,7 +24768,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "d71c8cd5-3553-4875-8783-4401ba0642a1",
           "width": 64,
           "x": 512,
@@ -25044,7 +24784,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "c7c73351-9fb2-482c-807d-cd1d7d6b0ac1",
           "width": 64,
           "x": 352,
@@ -25060,7 +24800,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "0751c083-6231-411d-b880-3bc317f19826",
           "width": 64,
           "x": 192,
@@ -25076,7 +24816,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "0c6ce33b-2b5a-45d8-8ee6-c59f14676f78",
           "width": 64,
           "x": 192,
@@ -25091,7 +24831,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "577c0e44-3523-4cf6-a403-1cd5c08f467d",
           "width": 64,
           "x": 352,
@@ -25192,7 +24932,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "3cfb0b79-5527-430b-9f58-65653ac8171a",
           "width": 64,
           "x": 64,
@@ -25208,7 +24948,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "7d9777f9-a5dd-4456-8a50-63a8b9392b26",
           "width": 64,
           "x": 224,
@@ -25224,7 +24964,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "9e3958af-4338-4888-bed2-f1169dc6fb42",
           "width": 64,
           "x": 352,
@@ -25240,7 +24980,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "ab4e4d4a-effd-4855-a1e5-b24676a489ca",
           "width": 64,
           "x": 896,
@@ -25273,7 +25013,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "34804264-c3a8-47bc-94dc-f88e3f3498b6",
           "width": 64,
           "x": 768,
@@ -25289,7 +25029,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "c6eb1b47-f6a6-423b-ae9a-99b620249b4f",
           "width": 64,
           "x": 608,
@@ -25305,7 +25045,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "f0880dec-c78e-4d3e-afca-bdcaaaf20e9a",
           "width": 64,
           "x": 480,
@@ -25458,7 +25198,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "82379e82-5bfc-46c5-8555-5ed9b8b1cfae",
           "width": 64,
           "x": 864,
@@ -25474,7 +25214,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "c734aa0b-23af-42f6-b29a-b36ecc5a2a7e",
           "width": 64,
           "x": 160,
@@ -25490,7 +25230,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "381ac4c6-c06c-4350-960a-19b78344e899",
           "width": 64,
           "x": 320,
@@ -25506,7 +25246,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "11031e02-89f9-41bd-93ca-f601c6b0664a",
           "width": 64,
           "x": 448,
@@ -25522,7 +25262,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "c8d43540-339c-40b4-b806-c73cb214cb19",
           "width": 64,
           "x": 160,
@@ -25537,7 +25277,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "1a342051-9852-40a1-8516-a98d7b17fbf4",
           "width": 64,
           "x": 320,
@@ -25552,7 +25292,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "c3b62340-8c68-45ca-950e-b7908e16d8ad",
           "width": 64,
           "x": 448,
@@ -25567,7 +25307,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "465d2b3c-4a71-4ccf-8f3d-8d8a6ab87bb4",
           "width": 64,
           "x": 864,
@@ -25582,7 +25322,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "a8e3ee1b-f547-41d4-9d77-ca2e17f53fb3",
           "width": 64,
           "x": 608,
@@ -25597,7 +25337,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "4db5dd8e-a5ac-45c6-9cd4-4bd905afea02",
           "width": 64,
           "x": 608,
@@ -25613,7 +25353,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "87fbeae7-576a-471c-b62a-9b7e8b1f9e3b",
           "width": 64,
           "x": 736,
@@ -25629,7 +25369,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "1dc84750-9423-46c6-893f-eb737fe2717b",
           "width": 64,
           "x": 736,
@@ -25780,7 +25520,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "3eba5768-f945-4e72-92c7-c0098f6bb675",
           "width": 64,
           "x": 352,
@@ -25796,7 +25536,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "ccbe5c16-fd57-4f55-b58c-c4f8b95eb171",
           "width": 64,
           "x": 512,
@@ -25811,7 +25551,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "35a8297d-c18b-4daa-af27-6b89f69bfa83",
           "width": 64,
           "x": 192,
@@ -25930,7 +25670,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "100d8ba2-873b-4e80-9cef-fcfb5c723528",
           "width": 64,
           "x": 192,
@@ -25946,7 +25686,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "0859f0c1-0208-4487-a8d8-3a9d38905937",
           "width": 64,
           "x": 352,
@@ -25962,7 +25702,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "d6dda353-d34a-4200-973b-61f501d2a7ce",
           "width": 64,
           "x": 480,
@@ -25978,7 +25718,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "0ef18cb7-7258-488a-a15b-59ee2419bb6a",
           "width": 64,
           "x": 896,
@@ -25994,7 +25734,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "4390fffc-67ee-453f-8853-53bd9b201f81",
           "width": 64,
           "x": 640,
@@ -26010,7 +25750,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "d7b5a171-ef87-47e5-be4f-68ba46f958b1",
           "width": 64,
           "x": 768,
@@ -26146,7 +25886,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "437548f9-00c6-477f-aa24-cfe99d6f4a83",
           "width": 64,
           "x": 128,
@@ -26161,7 +25901,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "1a3088ee-944d-46f7-9a29-2859c16808e0",
           "width": 64,
           "x": 384,
@@ -26176,7 +25916,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "a1508b08-5925-403b-862c-f4edddf7a490",
           "width": 64,
           "x": 512,
@@ -26191,7 +25931,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "30fdc1dc-7fc3-42fe-a1fe-50c35e07c3c4",
           "width": 64,
           "x": 640,
@@ -26206,7 +25946,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "b900ce41-dd28-4f7f-84e5-611057c1e184",
           "width": 64,
           "x": 128,
@@ -26222,7 +25962,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "f5fcdb75-c5ea-4edc-a8a5-c68c09a63762",
           "width": 64,
           "x": 384,
@@ -26238,7 +25978,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "e843c8c8-1b7a-4938-b6f8-10fe240021c5",
           "width": 64,
           "x": 512,
@@ -26254,7 +25994,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "ef30178d-045b-471e-b5a5-1d4107d438a2",
           "width": 64,
           "x": 640,
@@ -26270,7 +26010,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "05de4693-f941-4e43-8826-f359c013667d",
           "width": 64,
           "x": 256,
@@ -26285,7 +26025,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "8bf17fd3-c9a0-4510-87e4-6aee6172a45b",
           "width": 64,
           "x": 256,
@@ -26301,7 +26041,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "3880eaa6-c754-4fe7-882e-1e8c2a92413d",
           "width": 64,
           "x": 768,
@@ -26316,7 +26056,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "ddd4b84d-d080-41b0-a7aa-ed4e7b007bd2",
           "width": 64,
           "x": 768,
@@ -26452,7 +26192,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "437548f9-00c6-477f-aa24-cfe99d6f4a83",
           "width": 64,
           "x": 128,
@@ -26467,7 +26207,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "1a3088ee-944d-46f7-9a29-2859c16808e0",
           "width": 64,
           "x": 384,
@@ -26482,7 +26222,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "a1508b08-5925-403b-862c-f4edddf7a490",
           "width": 64,
           "x": 512,
@@ -26497,7 +26237,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "b900ce41-dd28-4f7f-84e5-611057c1e184",
           "width": 64,
           "x": 128,
@@ -26513,7 +26253,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "f5fcdb75-c5ea-4edc-a8a5-c68c09a63762",
           "width": 64,
           "x": 384,
@@ -26529,7 +26269,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "e843c8c8-1b7a-4938-b6f8-10fe240021c5",
           "width": 64,
           "x": 512,
@@ -26545,7 +26285,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "05de4693-f941-4e43-8826-f359c013667d",
           "width": 64,
           "x": 256,
@@ -26560,7 +26300,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "8bf17fd3-c9a0-4510-87e4-6aee6172a45b",
           "width": 64,
           "x": 256,
@@ -26695,7 +26435,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "100d8ba2-873b-4e80-9cef-fcfb5c723528",
           "width": 64,
           "x": 128,
@@ -26711,7 +26451,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "0859f0c1-0208-4487-a8d8-3a9d38905937",
           "width": 64,
           "x": 256,
@@ -26727,7 +26467,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "d6dda353-d34a-4200-973b-61f501d2a7ce",
           "width": 64,
           "x": 512,
@@ -26743,7 +26483,7 @@
           "customSize": false,
           "height": 64,
           "layer": "",
-          "name": "Coin",
+          "name": "Worm",
           "persistentUuid": "1c95f325-9227-4ad4-9c22-70c0456833bc",
           "width": 64,
           "x": 384,
